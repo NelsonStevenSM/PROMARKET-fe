@@ -15,8 +15,8 @@ export class ProMarketService {
     constructor(private http: HttpClient) { }
 
     //PUESTOS
-    public getPuestos = (token: string): Observable<Puesto[]> => {
-        return this.http.get<Puesto[]>(this.routeProMarket('puesto'), this.generateHeaders(token));
+    public getPuestos = (token: string, id: string): Observable<Puesto[]> => {
+        return this.http.get<Puesto[]>(this.routeProMarket('puesto/nivel/'+ id), this.generateHeaders(token));
     }
 
     public getPuesto = (token: string, id: string): Observable<Puesto> => {

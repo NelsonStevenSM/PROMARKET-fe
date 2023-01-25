@@ -116,12 +116,631 @@ export class Proyecto1Component implements OnInit {
     this.getPuesto(id);
   }
 
-  public muestraDataC_301(){
+    public muestraDataA_101(){
+      this.idStand = "P1_A_101"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_102(){
+      this.idStand = "P1_A_102"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_103(){
+      this.idStand = "P1_A_103"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_104(){
+      this.idStand = "P1_A_104"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_105(){
+      this.idStand = "P1_A_105"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_106(){
+      this.idStand = "P1_A_106"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_107(){
+      this.idStand = "P1_A_107"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_108(){
+      this.idStand = "P1_A_108"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_109(){
+      this.idStand = "P1_A_109"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_110(){
+      this.idStand = "P1_A_110"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_111(){
+      this.idStand = "P1_A_111"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_112(){
+      this.idStand = "P1_A_112"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_113(){
+      this.idStand = "P1_A_113"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_114(){
+      this.idStand = "P1_A_114"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_115(){
+      this.idStand = "P1_A_115"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_116(){
+      this.idStand = "P1_A_116"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_117(){
+      this.idStand = "P1_A_117"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_120(){
+      this.idStand = "P1_A_120"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_121(){
+      this.idStand = "P1_A_121"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_122(){
+      this.idStand = "P1_A_122"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_123(){
+      this.idStand = "P1_A_123"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_124(){
+      this.idStand = "P1_A_124"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_125(){
+      this.idStand = "P1_A_125"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_126(){
+      this.idStand = "P1_A_126"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_127(){
+      this.idStand = "P1_A_127"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_130(){
+      this.idStand = "P1_A_130"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_131(){
+      this.idStand = "P1_A_131"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_132(){
+      this.idStand = "P1_A_132"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_133(){
+      this.idStand = "P1_A_133"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_134(){
+      this.idStand = "P1_A_134"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_135(){
+      this.idStand = "P1_A_135"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_136(){
+      this.idStand = "P1_A_136"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_137(){
+      this.idStand = "P1_A_137"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_140(){
+      this.idStand = "P1_A_140"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_141(){
+      this.idStand = "P1_A_141"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_142(){
+      this.idStand = "P1_A_142"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_143(){
+      this.idStand = "P1_A_143"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_144(){
+      this.idStand = "P1_A_144"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_145(){
+      this.idStand = "P1_A_145"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_146(){
+      this.idStand = "P1_A_146"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_147(){
+      this.idStand = "P1_A_147"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_150(){
+      this.idStand = "P1_A_150"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_151(){
+      this.idStand = "P1_A_151"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_152(){
+      this.idStand = "P1_A_152"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_153(){
+      this.idStand = "P1_A_153"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_154(){
+      this.idStand = "P1_A_154"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_155(){
+      this.idStand = "P1_A_155"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_156(){
+      this.idStand = "P1_A_156"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_157(){
+      this.idStand = "P1_A_157"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_160(){
+      this.idStand = "P1_A_160"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_161(){
+      this.idStand = "P1_A_161"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_162(){
+      this.idStand = "P1_A_162"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_163(){
+      this.idStand = "P1_A_163"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_164(){
+      this.idStand = "P1_A_164"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_165(){
+      this.idStand = "P1_A_165"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_166(){
+      this.idStand = "P1_A_166"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_167(){
+      this.idStand = "P1_A_167"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_170(){
+      this.idStand = "P1_A_170"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_171(){
+      this.idStand = "P1_A_171"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_172(){
+      this.idStand = "P1_A_172"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_173(){
+      this.idStand = "P1_A_173"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_174(){
+      this.idStand = "P1_A_174"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_M1(){
+      this.idStand = "P1_A_M1"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_M2(){
+      this.idStand = "P1_A_M2"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_M3(){
+      this.idStand = "P1_A_M3"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_M4(){
+      this.idStand = "P1_A_M4"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_M5(){
+      this.idStand = "P1_A_M5"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_M6(){
+      this.idStand = "P1_A_M6"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_M7(){
+      this.idStand = "P1_A_M7"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataA_M8(){
+      this.idStand = "P1_A_M8"
+      this.muestraData(this.idStand)
+    }
+  
+
+
+    public muestraDataB_200(){
+      this.idStand = "P1_B_200"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_201(){
+      this.idStand = "P1_B_201"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_202(){
+      this.idStand = "P1_B_202"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_203(){
+      this.idStand = "P1_B_203"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_204(){
+      this.idStand = "P1_B_204"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_205(){
+      this.idStand = "P1_B_205"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_206(){
+      this.idStand = "P1_B_206"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_207(){
+      this.idStand = "P1_B_207"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_208(){
+      this.idStand = "P1_B_208"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_209(){
+      this.idStand = "P1_B_209"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_210(){
+      this.idStand = "P1_B_210"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_211(){
+      this.idStand = "P1_B_211"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_212(){
+      this.idStand = "P1_B_212"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_213(){
+      this.idStand = "P1_B_213"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_214(){
+      this.idStand = "P1_B_214"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_215(){
+      this.idStand = "P1_B_215"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_216(){
+      this.idStand = "P1_B_216"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_217(){
+      this.idStand = "P1_B_217"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_218(){
+      this.idStand = "P1_B_218"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_219(){
+      this.idStand = "P1_B_219"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_220(){
+      this.idStand = "P1_B_220"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_221(){
+      this.idStand = "P1_B_221"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_222(){
+      this.idStand = "P1_B_222"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_223(){
+      this.idStand = "P1_B_223"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_224(){
+      this.idStand = "P1_B_224"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_225(){
+      this.idStand = "P1_B_225"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_226(){
+      this.idStand = "P1_B_226"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_227(){
+      this.idStand = "P1_B_227"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_228(){
+      this.idStand = "P1_B_228"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_229(){
+      this.idStand = "P1_B_229"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_230(){
+      this.idStand = "P1_B_230"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_231(){
+      this.idStand = "P1_B_231"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_232(){
+      this.idStand = "P1_B_232"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_233(){
+      this.idStand = "P1_B_233"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_234(){
+      this.idStand = "P1_B_234"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_235(){
+      this.idStand = "P1_B_235"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_236(){
+      this.idStand = "P1_B_236"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_237(){
+      this.idStand = "P1_B_237"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_238(){
+      this.idStand = "P1_B_238"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_239(){
+      this.idStand = "P1_B_239"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_240(){
+      this.idStand = "P1_B_240"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_241(){
+      this.idStand = "P1_B_241"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_242(){
+      this.idStand = "P1_B_242"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_243(){
+      this.idStand = "P1_B_243"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_244(){
+      this.idStand = "P1_B_244"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_245(){
+      this.idStand = "P1_B_245"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_246(){
+      this.idStand = "P1_B_246"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_247(){
+      this.idStand = "P1_B_247"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_248(){
+      this.idStand = "P1_B_248"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_249(){
+      this.idStand = "P1_B_249"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_250(){
+      this.idStand = "P1_B_250"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_251(){
+      this.idStand = "P1_B_251"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_252(){
+      this.idStand = "P1_B_252"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_253(){
+      this.idStand = "P1_B_253"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_254(){
+      this.idStand = "P1_B_254"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_255(){
+      this.idStand = "P1_B_255"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_256(){
+      this.idStand = "P1_B_256"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_257(){
+      this.idStand = "P1_B_257"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_258(){
+      this.idStand = "P1_B_258"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_259(){
+      this.idStand = "P1_B_259"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_260(){
+      this.idStand = "P1_B_260"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_261(){
+      this.idStand = "P1_B_261"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_262(){
+      this.idStand = "P1_B_262"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_263(){
+      this.idStand = "P1_B_263"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_264(){
+      this.idStand = "P1_B_264"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_265(){
+      this.idStand = "P1_B_265"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_266(){
+      this.idStand = "P1_B_266"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_267(){
+      this.idStand = "P1_B_267"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_268(){
+      this.idStand = "P1_B_268"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_269(){
+      this.idStand = "P1_B_269"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_270(){
+      this.idStand = "P1_B_270"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_271(){
+      this.idStand = "P1_B_271"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_272(){
+      this.idStand = "P1_B_272"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_273(){
+      this.idStand = "P1_B_273"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_274(){
+      this.idStand = "P1_B_274"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_275(){
+      this.idStand = "P1_B_275"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_276(){
+      this.idStand = "P1_B_276"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_277(){
+      this.idStand = "P1_B_277"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_278(){
+      this.idStand = "P1_B_278"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_279(){
+      this.idStand = "P1_B_279"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_280(){
+      this.idStand = "P1_B_280"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_281(){
+      this.idStand = "P1_B_281"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_282(){
+      this.idStand = "P1_B_282"
+      this.muestraData(this.idStand)
+    }
+    public muestraDataB_283(){
+      this.idStand = "P1_B_283"
+      this.muestraData(this.idStand)
+    }
+
+ 
+    public muestraDataC_301(){
     this.idStand = "P1_C_301"
     this.muestraData(this.idStand)
-    }
-    
-    
+    }    
     public muestraDataC_302(){
     this.idStand = "P1_C_302"
     this.muestraData(this.idStand)
@@ -687,7 +1306,7 @@ export class Proyecto1Component implements OnInit {
       this.cliente.estado_civil = this.filtroGroup.controls['estadocivil'].value
       this.cliente.direccion = this.filtroGroup.controls['direccion'].value
   
-      console.log("CRASHED ---- ", this.filtroGroup.controls['estadocivil'].value)
+      // console.log("CRASHED ---- ", this.filtroGroup.controls['estadocivil'].value)
       if (this.filtroGroup.controls['estadocivil'].value === 1) {
 
 
@@ -708,11 +1327,11 @@ export class Proyecto1Component implements OnInit {
   
       this.puesto_s.cliente = this.cliente
 
-      console.log("Obketo RQ ->>>>", this.puesto_s)
-      console.log(JSON.stringify(this.puesto_s))
+      // console.log("Obketo RQ ->>>>", this.puesto_s)
+      // console.log(JSON.stringify(this.puesto_s))
       this.service.savePuesto(sessionStorage.getItem('token'), this.puesto_s).subscribe(
         res => {
-          console.log("RQ CRASHED ----", res)
+          // console.log("RQ CRASHED ----", res)
           const stand = document.getElementById(this.idStand);
           stand.setAttribute("fill", "red")
           this.flagFormulario = false;
@@ -766,6 +1385,7 @@ export class Proyecto1Component implements OnInit {
 
   //FLAGS DE VISIBILIDAD
   public showPiso1() {
+    this.getPuestos("1")
     this.flagShowPiso1 = true;
     this.flagShowPiso2 = false;
     this.flagShowPiso3 = false;
@@ -775,6 +1395,7 @@ export class Proyecto1Component implements OnInit {
   }
 
   public showPiso2() {
+    this.getPuestos("2")
     this.flagShowPiso1 = false;
     this.flagShowPiso2 = true;
     this.flagShowPiso3 = false;
@@ -784,6 +1405,7 @@ export class Proyecto1Component implements OnInit {
   }
 
   public showPiso3() {
+    this.getPuestos("3")
     this.flagShowPiso1 = false;
     this.flagShowPiso2 = false;
     this.flagShowPiso3 = true;
@@ -793,6 +1415,7 @@ export class Proyecto1Component implements OnInit {
   }
 
   public showSotano1() {
+    this.getPuestos("S1")
     this.flagShowPiso1 = false;
     this.flagShowPiso2 = false;
     this.flagShowPiso3 = false;
@@ -802,8 +1425,7 @@ export class Proyecto1Component implements OnInit {
   }
 
   public showSotano2() {
-    this.getPuestos()
-
+    this.getPuestos("S2")
     this.flagShowPiso1 = false;
     this.flagShowPiso2 = false;
     this.flagShowPiso3 = false;
@@ -824,10 +1446,10 @@ export class Proyecto1Component implements OnInit {
   }
 
   //MEJORAR AL BUSCAR POR PISO
-  getPuestos() {
-    this.service.getPuestos(sessionStorage.getItem('token')).subscribe(
+  getPuestos(id: string) {
+    this.service.getPuestos(sessionStorage.getItem('token'), id).subscribe(
       res => {
-        console.log(JSON.stringify(res))
+        console.log("--->",JSON.stringify(res))
         this.updateFill(res)
       },
       error => {
@@ -837,12 +1459,17 @@ export class Proyecto1Component implements OnInit {
   }
 
   updateFill(tiendas: Puesto[]) {
+    console.log(JSON.stringify(tiendas))
     tiendas.forEach(x => {
       const stand = document.getElementById(x.id)
+      console.log("ID", x.id)
+      console.log("ID", stand)
       if (x.estado === 0) {
         stand.setAttribute("fill", "gray")
       } else if (x.estado === 2) {
         stand.setAttribute("fill", "yellow")
+      }else{
+        stand.setAttribute("fill", "white")
       }
     });
   }

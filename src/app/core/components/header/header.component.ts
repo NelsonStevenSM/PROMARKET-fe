@@ -64,11 +64,11 @@ export class HeaderComponent implements OnInit {
     itemChild.route = "proyecto1";
     children.push(itemChild);
 
-    // itemChild = {} as NavItem;
-    // itemChild.iconName = "storefront"
-    // itemChild.displayName = "Proyecto 2";
-    // itemChild.route = "proyecto2";
-    // children.push(itemChild);
+    itemChild = {} as NavItem;
+    itemChild.iconName = "storefront"
+    itemChild.displayName = "Proyecto 2";
+    itemChild.route = "proyecto2";
+    children.push(itemChild);
 
     navItem.children = children;
     this.navItems.push(navItem);
