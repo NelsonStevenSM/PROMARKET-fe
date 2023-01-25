@@ -1,0 +1,107 @@
+<svg *ngIf=flagShowSotano2 width="665" height="593" viewBox="0 0 665 593" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="P1-S2">
+
+    <g id="P1_S2-9">
+    <rect (click)=muestraDataS2_DEP_9() id="P1_S2_9" width="56" height="69" transform="translate(1 523)" fill="white"/>
+    <text id="Title" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="26.1919" y="552.773">9</tspan></text>
+    <text id="Text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="10.5723" y="569.636">7.05 m2</tspan></text>
+    <path id="Deposito" d="M1 523H57M57 523V591.759M57 591.759L1 592M1 592V523" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-8">
+    <rect id="P1_S2_8" width="56" height="65" transform="translate(1 458)" fill="white"/>
+    <text id="Title_2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="26.2271" y="486.236">8</tspan></text>
+    <text id="Text_2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="9.77637" y="501.491">6.60 m2</tspan></text>
+    <path id="Deposito_2" d="M1 458H57M57 458V522.773M57 522.773L1 523M1 523V458" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-7">
+    <rect id="P1_S2_7" width="56" height="65" transform="translate(1 393)" fill="white"/>
+    <text id="Title_3" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="26.4292" y="421.236">7</tspan></text>
+    <text id="Text_3" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="10.6016" y="436.491">6.51 m2</tspan></text>
+    <path id="Deposito_3" d="M1 393H57M57 393V457.773M57 457.773L1 458M1 458V393" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-6">
+    <rect id="P1_S2_6" width="56" height="64" transform="translate(1 329)" fill="white"/>
+    <text id="Title_4" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="26.1919" y="356.852">6</tspan></text>
+    <text id="Text_4" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="9.88379" y="371.955">6.55 m2</tspan></text>
+    <path id="Deposito_4" d="M1 329H57M57 329V392.776M57 392.776L1 393M1 393V329" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-5">
+    <rect id="P1_S2_5" width="56" height="65" transform="translate(1 264)" fill="white"/>
+    <text id="Title_5" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="26.2622" y="292.236">5</tspan></text>
+    <text id="Text_5" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="11.29" y="307.491">7.01 m2</tspan></text>
+    <path id="Deposito_5" d="M1 264H57M57 264V328.773M57 328.773L1 329M1 329V264" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-4">
+    <rect id="P1_S2_4" width="56" height="65" transform="translate(1 199)" fill="white"/>
+    <text id="Title_6" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="26.1128" y="227.236">4</tspan></text>
+    <text id="Text_6" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="9.77637" y="242.491">6.60 m2</tspan></text>
+    <path id="Deposito_6" d="M1 199H57M57 199V263.773M57 263.773L1 264M1 264V199" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-3">
+    <rect id="P1_S2_3" width="56" height="65" transform="translate(1 134)" fill="white"/>
+    <text id="Title_7" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="26.1348" y="162.236">3</tspan></text>
+    <text id="Text_7" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="9.50293" y="177.491">6.43 m2</tspan></text>
+    <path id="Deposito_7" d="M1 134H57M57 134V198.773M57 198.773L1 199M1 199V134" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-2">
+    <rect id="P1_S2_2" width="56" height="64" transform="translate(1 70)" fill="white"/>
+    <text id="Title_8" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="26.2754" y="97.8524">2</tspan></text>
+    <text id="Text_8" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="9.77637" y="112.955">6.60 m2</tspan></text>
+    <path id="Deposito_8" d="M1 70H57M57 70V133.776M57 133.776L1 134M1 134V70" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-1">
+    <rect id="P1_S2_1" width="56" height="69" transform="translate(1 1)" fill="white"/>
+    <text id="Title_9" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="26.9082" y="30.7727">1</tspan></text>
+    <text id="Text_9" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="11.29" y="47.6364">7.01 m2</tspan></text>
+    <path id="Deposito_9" d="M1 1H57M57 1V69.7589M57 69.7589L1 70M1 70V1" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-14">
+    <rect id="P1_S2_14" width="59" height="85" transform="translate(493 1)" fill="white"/>
+    <text id="Title_10" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="517.521" y="36.9177">14</tspan></text>
+    <text id="Text_10" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="503.232" y="57.2161">9.09 m2</tspan></text>
+    <path id="Deposito_10" d="M493 1H552M552 1V85.7029M552 85.7029L493 86M493 86V1" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-13">
+    <rect id="P1_S2_13" width="58" height="55" transform="translate(514 217)" fill="white"/>
+    <text id="Title_11" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="538.043" y="241.396">13</tspan></text>
+    <text id="Text_11" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="524.162" y="254.129">5.75 m2</tspan></text>
+    <path id="Deposito_11" d="M514 217H572M572 217V271.808M572 271.808L514 272M514 272V217" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-12">
+    <rect id="P1_S2_12" width="58" height="53" transform="translate(514 272)" fill="white"/>
+    <text id="Title_12" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="538.184" y="295.628">12</tspan></text>
+    <text id="Text_12" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="523.889" y="308.057">5.58 m2</tspan></text>
+    <path id="Deposito_12" d="M514 272H572M572 272V324.815M572 324.815L514 325M514 325V272" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-11">
+    <rect id="P1_S2_11" width="58" height="53" transform="translate(514 325)" fill="white"/>
+    <text id="Title_13" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="538.816" y="348.628">11</tspan></text>
+    <text id="Text_13" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="523.889" y="361.057">5.58 m2</tspan></text>
+    <path id="Deposito_13" d="M514 325H572M572 325V377.815M572 377.815L514 378M514 378V325" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <g id="P1_S2-10">
+    <rect id="P1_S2_10" width="58" height="55" transform="translate(514 378)" fill="white"/>
+    <text id="Title_14" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="9" letter-spacing="0em"><tspan x="538.096" y="402.396">10</tspan></text>
+    <text id="Text_14" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="10" letter-spacing="0em"><tspan x="524.162" y="415.129">5.75 m2</tspan></text>
+    <path id="Deposito_14" d="M514 378H572M572 378V432.808M572 432.808L514 433M514 433V378" stroke="black" stroke-width="0.5"/>
+    </g>
+
+    <path id="ESCALERA COMPLETA" d="M576 465.481V459.985H601.39V546.824M576 465.481H601.39M576 465.481V470.977M576 470.977H601.39M576 470.977V477.573M576 477.573H601.39M576 477.573V483.069M576 483.069H601.39M576 483.069V489.664M576 489.664H601.39M576 489.664V495.16M576 495.16H601.39M576 495.16V500.656M576 500.656H601.39M576 500.656V507.252M576 507.252H601.39H609.117M576 507.252V532.534M576 532.534H601.39H609.117M576 532.534V540.229M576 540.229H601.39M576 540.229V546.824H601.39M601.39 546.824V554.519M658.792 507.252V473.176H579.312V582H601.39M658.792 507.252V532.534M658.792 507.252H628.987M631.195 532.534V540.229M631.195 532.534H658.792M631.195 532.534H628.987M631.195 554.519H658.792M631.195 554.519V547.924M631.195 554.519H630.091M658.792 554.519V582H630.091M658.792 554.519V547.924M631.195 547.924H658.792M631.195 547.924V540.229M658.792 547.924V540.229M631.195 540.229H658.792M658.792 540.229V532.534M609.117 507.252V532.534M609.117 507.252H615.74M609.117 532.534H615.74M615.74 507.252V532.534M615.74 507.252H622.364M615.74 532.534H622.364M622.364 507.252V532.534M622.364 507.252H628.987M622.364 532.534H628.987M628.987 507.252V532.534M601.39 554.519H608.565M601.39 554.519V582M630.091 582V554.519M630.091 582H623.468M630.091 554.519H623.468M623.468 554.519V582M623.468 554.519H615.74M623.468 582H615.74M615.74 554.519V582M615.74 554.519H608.565M615.74 582H608.565M608.565 554.519V582M608.565 582H601.39M627.883 552.321L642.234 546.824L644.442 549.023V542.427L646.649 544.626L661 538.031M579.312 150H658.792V187.374H579.312V150ZM579.312 196.168H658.792V287.405H579.312V196.168ZM579.312 292.901H658.792V466.58H579.312V292.901Z" stroke="black" stroke-width="0.5"/>
+    <path id="Escalera" d="M651 152V159M648.763 152V159M646.526 152V159M644.289 152V159M642.053 152V159M639.838 152V159M637.601 152V159M635.364 152V159M633.127 152V159M630.89 152V159M628.653 152V159M626.417 152V159M624.18 152V159M621.965 152V159M619.728 152V159M617.491 152V159M615.254 152V159M613.018 152V159M610.781 152V159M608.544 152V159M606.307 152V159M604.092 152V159M601.855 152V159M599.618 152V159M597.382 152V159M595.145 152V159M592.908 152V159M590.671 152V159M588.434 152V159M586.197 152V159M583.982 152V159M581.746 152V159M650.254 152V159M648.018 152V159M645.781 152V159M643.544 152V159M641.329 152V159M639.092 152V159M636.855 152V159M634.618 152V159M632.382 152V159M630.145 152V159M627.908 152V159M625.671 152V159M623.434 152V159M621.219 152V159M618.982 152V159M616.746 152V159M614.509 152V159M612.272 152V159M610.035 152V159M607.798 152V159M605.561 152V159M603.347 152V159M601.11 152V159M598.873 152V159M596.636 152V159M594.399 152V159M592.162 152V159M589.925 152V159M587.689 152V159M585.474 152V159M583.237 152V159M581 152V159" stroke="black" stroke-width="0.5"/>
+    <path id="Escalera_2" d="M655.52 279V286M653.301 279V286M651.082 279V286M648.863 279V286M646.643 279V286M644.424 279V286M642.205 279V286M640.007 279V286M637.788 279V286M635.569 279V286M633.349 279V286M631.13 279V286M628.911 279V286M626.692 279V286M624.472 279V286M622.275 279V286M620.056 279V286M617.836 279V286M615.617 279V286M613.398 279V286M611.178 279V286M608.959 279V286M606.74 279V286M657 279V286M654.781 279V286M652.561 279V286M650.342 279V286M648.123 279V286M645.904 279V286M643.684 279V286M641.465 279V286M639.267 279V286M637.048 279V286M634.829 279V286M632.61 279V286M630.39 279V286M628.171 279V286M625.952 279V286M623.732 279V286M621.535 279V286M619.316 279V286M617.096 279V286M614.877 279V286M612.658 279V286M610.439 279V286M608.219 279V286M606 279V286" stroke="black" stroke-width="0.5"/>
+    <rect x="1" y="1" width="663" height="591" stroke="black"/>
+    </g>
+</svg>

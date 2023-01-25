@@ -1,0 +1,497 @@
+<svg *ngIf=flagShowPiso1 width="731" height="271" viewBox="0 0 731 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="P1-A">
+        <path id="5183_vector" d="M140.5 249V267M140.5 249H144.5M140.5 249H136.5M140.5 267H144.5M140.5 267H136.5M148.5 249V267M148.5 249H152.5M148.5 249H144.5M148.5 267H152.5M148.5 267H144.5M152.5 249H156.5V267H152.5M152.5 249V267M144.5 249V267M132.5 249V267M132.5 249H136.5M132.5 249H128.5M132.5 267H136.5M132.5 267H128.5M136.5 249V267M128.5 249H124.5V267H128.5M128.5 249V267M329 249.5V266.5M329 249.5H333M329 249.5H319.75M329 266.5H333M329 266.5H319.75M337 249.5V266.5M337 249.5H333M337 249.5H341M337 266.5H333M337 266.5H341M333 249.5V266.5M341 249.5H345V266.5H341M341 249.5V266.5M319.75 249.5V266.5M319.75 249.5H315.125H312.812H310.5L314 257.5L312.812 258.426L316 258L314.5 259.5L318 266.5H319.75M507.5 3H479M489 22.5H485.5M469.5 22.5H451V3H469.5M469.5 22.5V41.5H473.5M469.5 22.5H473.5M469.5 22.5V3M469.5 22.5L473 16.2778M485.5 22.5V41.5H481.5M485.5 22.5H481.5M477.5 22.5V41.5M477.5 22.5H481.5M477.5 22.5H473.5M477.5 41.5H481.5M477.5 41.5H473.5M481.5 22.5V41.5M473.5 22.5V41.5M469.5 3H472.5H473M479 3H476M479 3L476 9.375M473 3V16.2778M473 3H476M473 16.2778L474 14.5L472.5 13H476.5L475 11.5L476 9.375M476 3V9.375M367.5 132.25V129.5H342M367.5 132.25V135L370.5 134.5L364.5 138L367.5 137.5V140.75M367.5 132.25H364.312M342 129.5H329.5V144H342M342 129.5V130.5H339V131.5H342V132.25H348.375M367.5 140.75V144H342M367.5 140.75H364.312M342 144V143H339V142H342V140.75H348.375M354.75 132.25V140.75M354.75 132.25H357.938M354.75 132.25H348.375M354.75 140.75H357.938M354.75 140.75H348.375M361.125 132.25V140.75M361.125 132.25H357.938M361.125 132.25H364.312M361.125 140.75H357.938M361.125 140.75H364.312M357.938 132.25V140.75M364.312 132.25V140.75M348.375 132.25V136.5M348.375 140.75V136.5M435 125H409V122M435 125V124H437.5V123H435V122H428.5M435 125H447.5V110.5H435M409 122V119.5L406 120L412 116.5L409 117V113.5M409 122H412.25M435 110.5H409V113.5M435 110.5V111.5H437.5V112.5H435V113.5H428.5M409 113.5H412.25M422 113.5V122M422 113.5H418.75M422 113.5H428.5M422 122H418.75M422 122H428.5M415.5 113.5V122M415.5 113.5H418.75M415.5 113.5H412.25M415.5 122H418.75M415.5 122H412.25M418.75 113.5V122M412.25 113.5V122M428.5 113.5V117.75M428.5 122V117.75M716.5 242.5V247.5H722.5M716.5 242.5V230.5M716.5 242.5H713.25M730 247.5V267.5L11 270.5L1 1H730.5V80H726V199H730V230.5M730 247.5V230.5M730 247.5H722.5M730 230.5H716.75H716.5M703.75 214H691V228.5M703.75 214V226.5M703.75 214H706.938M703.75 226.5H703.5V228.5M703.75 226.5H706.938M710.125 214V226.5M710.125 214H713.312M710.125 214H706.938M710.125 226.5H713.312M710.125 226.5H706.938M713.312 214H716.5V226.5H713.312M713.312 214V226.5M706.938 214V226.5M703.5 228.5V230.5H703.75M703.5 228.5H691M691 228.5V242.5H703.75M716.5 230.5H713.25M710 230.5V242.5M710 230.5H706.75M710 230.5H713.25M710 242.5H706.75M710 242.5H713.25M706.75 230.5V242.5M706.75 230.5H703.75M706.75 242.5H703.75M713.25 230.5V242.5M703.75 230.5V242.5M720.5 245L722.5 244L724.5 245M722.5 247.5V236.5H697V220.5H719.5M719.5 220.5L718 219M719.5 220.5L718 222M487.5 32H459.5V13H467M467 13L465.5 11.5M467 13L465.5 14.5M158.5 260.5H118.5M118.5 260.5L120 259M118.5 260.5L120 262M349 258H322M322 258L323.5 256.5M322 258L323.5 259.5M348.375 136.5H335M348.375 136.5H353M353 136.5L351 134.5M353 136.5L351 138.5M428.5 117.75H441M428.5 117.75H424M424 117.75L425.5 116.25M424 117.75L425.5 119.25" stroke="black" stroke-width="0.5"/>
+        <g id="P1_A-118">
+        <rect width="31.2" height="26.74" transform="translate(136.05 60.93)" fill="white"/>
+        <text id="5185_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="147.785" y="71.7926">118</tspan></text>
+        <text id="5186_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="138.675" y="82.6813">7.29 m2</tspan></text>
+        <path id="5187_vector" d="M136.05 60.93H167.25M167.25 60.93V87.5765M167.25 87.5765L136.05 87.67M136.05 87.67V60.93" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-119">
+        <rect width="32.45" height="26.74" transform="translate(167.25 60.93)" fill="white"/>
+        <text id="5189_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="179.591" y="71.7926">119</tspan></text>
+        <text id="5190_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="170.569" y="82.6813">7.58 m2</tspan></text>
+        <path id="5191_vector" d="M167.25 60.93H199.7M199.7 60.93V87.5765M199.7 87.5765L167.25 87.67M167.25 87.67V60.93" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-120">
+        <rect width="29.23" height="26.74" transform="translate(199.7 60.93)" fill="white"/>
+        <text id="5193_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="210.077" y="71.7926">120</tspan></text>
+        <text id="5194_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="200.835" y="82.6813">6.83 m2</tspan></text>
+        <path id="5195_vector" d="M199.7 60.93H228.93M228.93 60.93V87.5765M228.93 87.5765L199.7 87.67M199.7 87.67V60.93" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-121">
+        <rect width="29.24" height="26.74" transform="translate(228.93 60.93)" fill="white"/>
+        <text id="5197_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="239.712" y="71.7926">121</tspan></text>
+        <text id="5198_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="230.07" y="82.6813">6.83 m2</tspan></text>
+        <path id="5199_vector" d="M228.93 60.93H258.17M258.17 60.93V87.5765M258.17 87.5765L228.93 87.67M228.93 87.67V60.93" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-122">
+        <rect width="29.77" height="26.74" transform="translate(258.17 60.93)" fill="white"/>
+        <text id="5201_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="268.866" y="71.7926">122</tspan></text>
+        <text id="5202_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="259.592" y="82.6813">6.95 m2</tspan></text>
+        <path id="5203_vector" d="M258.17 60.93H287.94M287.94 60.93V87.5765M287.94 87.5765L258.17 87.67M258.17 87.67V60.93" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-M1">
+        <rect width="23.53" height="21.4" transform="translate(320.74 73.23)" fill="white"/>
+        <text id="5205_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="329.119" y="82.2864">M1</tspan></text>
+        <text id="5206_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="322.742" y="90.4186">4.40 m2</tspan></text>
+        <path id="5207_vector" d="M320.74 73.23H344.27M344.27 73.23V94.5552M344.27 94.5552L320.74 94.63M320.74 94.63V73.23" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-M2">
+        <rect width="23.53" height="21.4" transform="translate(344.27 73.23)" fill="white"/>
+        <text id="5221_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="352.297" y="82.2864">M2</tspan></text>
+        <text id="5222_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="346.272" y="90.4186">4.40 m2</tspan></text>
+        <path id="5223_vector" d="M344.27 73.23H367.8M367.8 73.23V94.5552M367.8 94.5552L344.27 94.63M344.27 94.63V73.23" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-M3">
+        <rect width="23.53" height="21.4" transform="translate(408.45 73.23)" fill="white"/>
+        <text id="5213_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="416.399" y="82.2864">M3</tspan></text>
+        <text id="5214_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="410.452" y="90.4186">4.40 m2</tspan></text>
+        <path id="5215_vector" d="M408.45 73.23H431.98M431.98 73.23V94.5552M431.98 94.5552L408.45 94.63M408.45 94.63V73.23" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-M4">
+        <rect width="23.53" height="21.4" transform="translate(431.98 73.23)" fill="white"/>
+        <text id="5229_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="439.917" y="82.2864">M4</tspan></text>
+        <text id="5230_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="433.982" y="90.4186">4.40 m2</tspan></text>
+        <path id="5231_vector" d="M431.98 73.23H455.51M455.51 73.23V94.5552M455.51 94.5552L431.98 94.63M431.98 94.63V73.23" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-M5">
+        <rect width="23.53" height="21.4" transform="translate(320.74 168.42)" fill="white"/>
+        <text id="5209_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="328.76" y="177.476">M5</tspan></text>
+        <text id="5210_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="322.742" y="185.609">4.40 m2</tspan></text>
+        <path id="5211_vector" d="M320.74 168.42H344.27M344.27 168.42V189.745M344.27 189.745L320.74 189.82M320.74 189.82V168.42" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-M6">
+        <rect width="23.53" height="21.4" transform="translate(344.27 168.42)" fill="white"/>
+        <text id="5225_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="352.251" y="177.476">M6</tspan></text>
+        <text id="5226_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="346.272" y="185.609">4.40 m2</tspan></text>
+        <path id="5227_vector" d="M344.27 168.42H367.8M367.8 168.42V189.745M367.8 189.745L344.27 189.82M344.27 189.82V168.42" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-M7">
+        <rect width="23.53" height="21.4" transform="translate(408.45 168.42)" fill="white"/>
+        <text id="5217_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="416.563" y="177.476">M7</tspan></text>
+        <text id="5218_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="410.452" y="185.609">4.40 m2</tspan></text>
+        <path id="5219_vector" d="M408.45 168.42H431.98M431.98 168.42V189.745M431.98 189.745L408.45 189.82M408.45 189.82V168.42" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-M8">
+        <rect width="23.53" height="21.4" transform="translate(431.98 168.42)" fill="white"/>
+        <text id="5233_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="439.98" y="177.476">M8</tspan></text>
+        <text id="5234_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="433.982" y="185.609">4.40 m2</tspan></text>
+        <path id="5235_vector" d="M431.98 168.42H455.51M455.51 168.42V189.745M455.51 189.745L431.98 189.82M431.98 189.82V168.42" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-127">
+        <rect width="31.2" height="26.74" transform="translate(136.05 87.67)" fill="white"/>
+        <text id="5237_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="147.546" y="98.5326">127</tspan></text>
+        <text id="5238_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="138.675" y="109.421">7.29 m2</tspan></text>
+        <path id="5239_vector" d="M136.05 87.67H167.25M167.25 87.67V114.317M167.25 114.317L136.05 114.41M136.05 114.41V87.67" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-126">
+        <rect width="32.45" height="26.74" transform="translate(167.25 87.67)" fill="white"/>
+        <text id="5241_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="179.239" y="98.5326">126</tspan></text>
+        <text id="5242_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="170.569" y="109.421">7.58 m2</tspan></text>
+        <path id="5243_vector" d="M167.25 87.67H199.7M199.7 87.67V114.317M199.7 114.317L167.25 114.41M167.25 114.41V87.67" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-125">
+        <rect width="29.23" height="26.74" transform="translate(199.7 87.67)" fill="white"/>
+        <text id="5245_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="210.118" y="98.5326">125</tspan></text>
+        <text id="5246_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="200.835" y="109.421">6.83 m2</tspan></text>
+        <path id="5247_vector" d="M199.7 87.67H228.93M228.93 87.67V114.317M228.93 114.317L199.7 114.41M199.7 114.41V87.67" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-124">
+        <rect width="29.24" height="26.74" transform="translate(228.93 87.5)" fill="white"/>
+        <text id="5249_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="239.309" y="98.3626">124</tspan></text>
+        <text id="5250_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="230.07" y="109.251">6.83 m2</tspan></text>
+        <path id="5251_vector" d="M228.93 87.5H258.17M258.17 87.5V114.147M258.17 114.147L228.93 114.24M228.93 114.24V87.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-123">
+        <rect width="29.77" height="26.74" transform="translate(258.17 87.5)" fill="white"/>
+        <text id="5253_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="268.787" y="98.3626">123</tspan></text>
+        <text id="5254_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="259.592" y="109.251">6.95 m2</tspan></text>
+        <path id="5255_vector" d="M258.17 87.5H287.94M287.94 87.5V114.147M287.94 114.147L258.17 114.24M258.17 114.24V87.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-132">
+        <rect width="25.67" height="24.87" transform="translate(136.05 140.08)" fill="white"/>
+        <text id="5257_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="144.617" y="150.31">132</tspan></text>
+        <text id="5258_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="6" letter-spacing="0em"><tspan x="137.418" y="160.125">5.58 m2</tspan></text>
+        <path id="5259_vector" d="M136.05 140.08H161.72M161.72 140.08V164.863M161.72 164.863L136.05 164.95M136.05 164.95V140.08" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-151">
+        <rect width="28.77" height="24.86" transform="translate(197.63 164.95)" fill="white"/>
+        <text id="5261_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="208.17" y="175.177">151</tspan></text>
+        <text id="5262_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="198.494" y="185.351">6.23 m2</tspan></text>
+        <path id="5263_vector" d="M197.63 164.95H226.4M226.4 164.95V189.723M226.4 189.723L197.63 189.81M197.63 189.81V164.95" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-152">
+        <rect width="28.77" height="24.86" transform="translate(169 164.95)" fill="white"/>
+        <text id="5265_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="179.188" y="175.177">152</tspan></text>
+        <text id="5266_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="169.864" y="185.351">6.23 m2</tspan></text>
+        <path id="5267_vector" d="M169 164.95H197.77M197.77 164.95V189.723M197.77 189.723L169 189.81M169 189.81V164.95" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-153">
+        <rect width="33" height="25" transform="translate(136 165)" fill="white"/>
+        <text id="5269_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="148.225" y="175.274">153</tspan></text>
+        <text id="5270_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="140.277" y="185.502">7.13 m2</tspan></text>
+        <path id="5271_vector" d="M136 165H169M169 165V189.913M169 189.913L136 190M136 190V165" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-150">
+        <rect width="28.77" height="24.86" transform="translate(226.4 164.95)" fill="white"/>
+        <text id="5273_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="236.539" y="175.177">150</tspan></text>
+        <text id="5274_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="227.264" y="185.351">6.23 m2</tspan></text>
+        <path id="5275_vector" d="M226.4 164.95H255.17M255.17 164.95V189.723M255.17 189.723L226.4 189.81M226.4 189.81V164.95" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-149">
+        <rect width="32.98" height="24.86" transform="translate(255.17 164.95)" fill="white"/>
+        <text id="5277_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="267.334" y="175.177">149</tspan></text>
+        <text id="5278_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="259.666" y="185.351">7.17 m2</tspan></text>
+        <path id="5279_vector" d="M255.17 164.95H288.15M288.15 164.95V189.723M288.15 189.723L255.17 189.81M255.17 189.81V164.95" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-133">
+        <rect width="25.67" height="24.87" transform="translate(161.72 140.08)" fill="white"/>
+        <text id="5281_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="170.209" y="150.31">133</tspan></text>
+        <text id="5282_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="6" letter-spacing="0em"><tspan x="163.088" y="160.125">5.58 m2</tspan></text>
+        <path id="5283_vector" d="M161.72 140.08H187.39M187.39 140.08V164.863M187.39 164.863L161.72 164.95M161.72 164.95V140.08" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-134">
+        <rect width="25.67" height="24.87" transform="translate(187.39 140.08)" fill="white"/>
+        <text id="5285_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="195.867" y="150.31">134</tspan></text>
+        <text id="5286_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="6" letter-spacing="0em"><tspan x="188.758" y="160.125">5.58 m2</tspan></text>
+        <path id="5287_vector" d="M187.39 140.08H213.06M213.06 140.08V164.863M213.06 164.863L187.39 164.95M187.39 164.95V140.08" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-135">
+        <rect width="37.17" height="24.87" transform="translate(213.06 140.08)" fill="white"/>
+        <text id="5289_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="227.37" y="150.31">135</tspan></text>
+        <text id="5290_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="218.202" y="160.488">8.08 m2</tspan></text>
+        <path id="5291_vector" d="M213.06 140.08H250.23M250.23 140.08V164.863M250.23 164.863L213.06 164.95M213.06 164.95V140.08" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-136">
+        <rect width="37.7" height="24.87" transform="translate(250.23 140.08)" fill="white"/>
+        <text id="5293_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="264.766" y="150.31">136</tspan></text>
+        <text id="5294_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="255.586" y="160.488">8.20 m2</tspan></text>
+        <path id="5295_vector" d="M250.23 140.08H287.93M287.93 140.08V164.863M287.93 164.863L250.23 164.95M250.23 164.95V140.08" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-116">
+        <rect width="27.06" height="26.74" transform="translate(55.16 60.93)" fill="white"/>
+        <text id="5297_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="64.8057" y="71.7926">116</tspan></text>
+        <text id="5298_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="55.2642" y="82.6813">6.32 m2</tspan></text>
+        <path id="5299_vector" d="M55.16 60.93H82.22M82.22 60.93V87.5765M82.22 87.5765L55.16 87.67M55.16 87.67V60.93" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-129">
+        <rect width="27.06" height="26.74" transform="translate(55.16 87.5)" fill="white"/>
+        <text id="5301_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="64.4541" y="98.3626">129</tspan></text>
+        <text id="5302_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="55.2642" y="109.251">6.32 m2</tspan></text>
+        <path id="5303_vector" d="M55.16 87.5H82.22M82.22 87.5V114.147M82.22 114.147L55.16 114.24M55.16 114.24V87.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-130">
+        <rect width="46.13" height="24.87" transform="translate(23.07 140.08)" fill="white"/>
+        <text id="5305_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="41.8186" y="150.31">130</tspan></text>
+        <text id="5306_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="32.7092" y="160.488">6.32 m2</tspan></text>
+        <path id="5307_vector" d="M23.07 140.08H69.2M69.2 140.08V164.863M69.2 164.863L23.07 164.95M23.07 164.95V140.08" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-156">
+        <rect width="30.51" height="24.86" transform="translate(23.07 164.95)" fill="white"/>
+        <text id="5309_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="34.0818" y="175.177">156</tspan></text>
+        <text id="5310_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="24.8992" y="185.351">6.32 m2</tspan></text>
+        <path id="5311_vector" d="M23.07 164.95H53.58M53.58 164.95V189.723M53.58 189.723L23.07 189.81M23.07 189.81V164.95" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-155">
+        <rect width="30.24" height="24.86" transform="translate(53.58 164.95)" fill="white"/>
+        <text id="5313_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="64.4959" y="175.177">155</tspan></text>
+        <text id="5314_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="55.2742" y="185.351">6.32 m2</tspan></text>
+        <path id="5315_vector" d="M53.58 164.95H83.82M83.82 164.95V189.723M83.82 189.723L53.58 189.81M53.58 189.81V164.95" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-154">
+        <rect width="26.56" height="24.86" transform="translate(83.82 164.95)" fill="white"/>
+        <text id="5317_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="92.8129" y="175.177">154</tspan></text>
+        <text id="5318_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="83.9408" y="185.351">5.77 m2</tspan></text>
+        <path id="5319_vector" d="M83.82 164.95H110.38M110.38 164.95V189.723M110.38 189.723L83.82 189.81M83.82 189.81V164.95" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-157">
+        <rect width="28.93" height="33.7" transform="translate(125.27 215.49)" fill="white"/>
+        <text id="5321_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="135.624" y="228.707">157</tspan></text>
+        <text id="5322_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="126.842" y="242.24">8.51 m2</tspan></text>
+        <path id="5323_vector" d="M125.27 215.49H154.2M154.2 215.49V249.072M154.2 249.072L125.27 249.19M125.27 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-158">
+        <rect width="27.81" height="33.7" transform="translate(154.2 215.49)" fill="white"/>
+        <text id="5325_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="163.881" y="228.707">158</tspan></text>
+        <text id="5326_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="155.411" y="242.24">8.19 m2</tspan></text>
+        <path id="5327_vector" d="M154.2 215.49H182.01M182.01 215.49V249.072M182.01 249.072L154.2 249.19M154.2 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-159">
+        <rect width="27.81" height="33.7" transform="translate(182.01 215.49)" fill="white"/>
+        <text id="5329_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="191.672" y="228.707">159</tspan></text>
+        <text id="5330_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="183.221" y="242.24">8.19 m2</tspan></text>
+        <path id="5331_vector" d="M182.01 215.49H209.82M209.82 215.49V249.072M209.82 249.072L182.01 249.19M182.01 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-160">
+        <rect width="27.81" height="33.7" transform="translate(209.82 215.49)" fill="white"/>
+        <text id="5333_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="219.44" y="228.707">160</tspan></text>
+        <text id="5334_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="211.031" y="242.24">8.19 m2</tspan></text>
+        <path id="5335_vector" d="M209.82 215.49H237.63M237.63 215.49V249.072M237.63 249.072L209.82 249.19M209.82 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-161">
+        <rect width="27.81" height="33.7" transform="translate(237.63 215.49)" fill="white"/>
+        <text id="5337_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="247.651" y="228.707">161</tspan></text>
+        <text id="5338_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="238.841" y="242.24">8.19 m2</tspan></text>
+        <path id="5339_vector" d="M237.63 215.49H265.44M265.44 215.49V249.072M265.44 249.072L237.63 249.19M237.63 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-162">
+        <rect width="27.81" height="33.7" transform="translate(265.44 215.49)" fill="white"/>
+        <text id="5341_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="275.109" y="228.707">162</tspan></text>
+        <text id="5342_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="266.651" y="242.24">8.19 m2</tspan></text>
+        <path id="5343_vector" d="M265.44 215.49H293.25M293.25 215.49V249.072M293.25 249.072L265.44 249.19M265.44 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-163">
+        <rect width="26" height="33.7" transform="translate(293.5 215.5)" fill="white"/>
+        <text id="5345_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="302.186" y="228.717">163</tspan></text>
+        <text id="5346_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="293.594" y="242.25">7.88 m2</tspan></text>
+        <path id="5347_vector" d="M293.5 215.5H319.5M319.5 215.5V249.082M319.5 249.082L293.5 249.2M293.5 249.2V215.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-164">
+        <rect width="27.81" height="33.7" transform="translate(319.5 215.49)" fill="white"/>
+        <text id="5349_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="329.079" y="228.707">164</tspan></text>
+        <text id="5350_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="320.711" y="242.24">8.19 m2</tspan></text>
+        <path id="5351_vector" d="M319.5 215.49H347.31M347.31 215.49V249.072M347.31 249.072L319.5 249.19M319.5 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-165">
+        <rect width="27.81" height="33.7" transform="translate(360.64 215.49)" fill="white"/>
+        <text id="5353_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="370.302" y="228.707">165</tspan></text>
+        <text id="5354_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="361.851" y="242.24">8.19 m2</tspan></text>
+        <path id="5355_vector" d="M360.64 215.49H388.45M388.45 215.49V249.072M388.45 249.072L360.64 249.19M360.64 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-166">
+        <rect width="27.81" height="33.7" transform="translate(388.45 215.49)" fill="white"/>
+        <text id="5357_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="398.073" y="228.707">166</tspan></text>
+        <text id="5358_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="389.661" y="242.24">8.19 m2</tspan></text>
+        <path id="5359_vector" d="M388.45 215.49H416.26M416.26 215.49V249.072M416.26 249.072L388.45 249.19M388.45 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-167">
+        <rect width="27.81" height="33.7" transform="translate(416.26 215.49)" fill="white"/>
+        <text id="5361_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="426.015" y="228.707">167</tspan></text>
+        <text id="5362_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="417.471" y="242.24">8.19 m2</tspan></text>
+        <path id="5363_vector" d="M416.26 215.49H444.07M444.07 215.49V249.072M444.07 249.072L416.26 249.19M416.26 249.19V215.49" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-168">
+        <rect width="27.81" height="33.7" transform="translate(444.07 215.5)" fill="white"/>
+        <text id="5365_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="453.712" y="228.717">168</tspan></text>
+        <text id="5366_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="445.281" y="242.25">8.19 m2</tspan></text>
+        <path id="5367_vector" d="M444.07 215.5H471.88M471.88 215.5V249.082M471.88 249.082L444.07 249.2M444.07 249.2V215.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-169">
+        <rect width="27.81" height="33.7" transform="translate(471.88 215.5)" fill="white"/>
+        <text id="5369_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="481.503" y="228.717">169</tspan></text>
+        <text id="5370_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="473.091" y="242.25">8.19 m2</tspan></text>
+        <path id="5371_vector" d="M471.88 215.5H499.69M499.69 215.5V249.082M499.69 249.082L471.88 249.2M471.88 249.2V215.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-170">
+        <rect width="28.13" height="33.7" transform="translate(499.69 215.5)" fill="white"/>
+        <text id="5373_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="509.641" y="228.717">170</tspan></text>
+        <text id="5374_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="500.264" y="242.25">8.29 m2</tspan></text>
+        <path id="5375_vector" d="M499.69 215.5H527.82M527.82 215.5V249.082M527.82 249.082L499.69 249.2M499.69 249.2V215.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-137">
+        <rect width="29.24" height="28.07" transform="translate(487.6 133.67)" fill="white"/>
+        <text id="5377_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="498.038" y="144.982">137</tspan></text>
+        <text id="5378_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="490.226" y="156.377">7.17 m2</tspan></text>
+        <path id="5379_vector" d="M487.6 133.67H516.84M516.84 133.67V161.642M516.84 161.642L487.6 161.74M487.6 161.74V133.67" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-101">
+        <rect width="50.38" height="41.98" transform="translate(547.5 59.6)" fill="white"/>
+        <text id="5381_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="568.803" y="75.6173">101</tspan></text>
+        <text id="5382_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="557.61" y="92.2973">18.50 m2</tspan></text>
+        <path id="5383_vector" d="M547.5 59.6H597.88M597.88 59.6V101.433M597.88 101.433L547.5 101.58M547.5 101.58V59.6" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-102">
+        <rect width="29.41" height="41.98" transform="translate(518.09 59.6)" fill="white"/>
+        <text id="5385_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="528.557" y="75.6173">102</tspan></text>
+        <text id="5386_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="523.84" y="88.2973">10.80 </tspan><tspan x="527.634" y="96.2973">m2</tspan></text>
+        <path id="5387_vector" d="M518.09 59.6H547.5M547.5 59.6V101.433M547.5 101.433L518.09 101.58M518.09 101.58V59.6" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-103">
+        <rect width="29" height="41" transform="translate(489.08 60.23)" fill="white"/>
+        <text id="5389_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="499.264" y="75.9158">103</tspan></text>
+        <text id="5390_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="494.608" y="88.2235">10.60 </tspan><tspan x="498.419" y="96.2235">m2</tspan></text>
+        <path id="5391_vector" d="M489.08 60.23H518.08M518.08 60.23V101.087M518.08 101.087L489.08 101.23M489.08 101.23V60.23" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-148">
+        <rect width="29.24" height="28.07" transform="translate(487.6 161.74)" fill="white"/>
+        <text id="5393_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="497.913" y="173.052">148</tspan></text>
+        <text id="5394_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="490.226" y="184.447">7.17 m2</tspan></text>
+        <path id="5395_vector" d="M487.6 161.74H516.84M516.84 161.74V189.712M516.84 189.712L487.6 189.81M487.6 189.81V161.74" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-139">
+        <rect width="29.24" height="28.07" transform="translate(546.08 133.67)" fill="white"/>
+        <text id="5397_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="556.386" y="144.982">139</tspan></text>
+        <text id="5398_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="548.706" y="156.377">7.17 m2</tspan></text>
+        <path id="5399_vector" d="M546.08 133.67H575.32M575.32 133.67V161.642M575.32 161.642L546.08 161.74M546.08 161.74V133.67" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-146">
+        <rect width="29.24" height="28.07" transform="translate(546.08 161.74)" fill="white"/>
+        <text id="5401_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="556.374" y="173.052">146</tspan></text>
+        <text id="5402_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="548.706" y="184.447">7.17 m2</tspan></text>
+        <path id="5403_vector" d="M546.08 161.74H575.32M575.32 161.74V189.712M575.32 189.712L546.08 189.81M546.08 189.81V161.74" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-141">
+        <rect width="29.24" height="28.07" transform="translate(604.56 133.67)" fill="white"/>
+        <text id="5405_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="615.276" y="144.982">141</tspan></text>
+        <text id="5406_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="607.186" y="156.377">7.17 m2</tspan></text>
+        <path id="5407_vector" d="M604.56 133.67H633.8M633.8 133.67V161.642M633.8 161.642L604.56 161.74M604.56 161.74V133.67" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-144">
+        <rect width="29.24" height="28.07" transform="translate(604.56 161.74)" fill="white"/>
+        <text id="5409_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="614.81" y="173.052">144</tspan></text>
+        <text id="5410_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="607.186" y="184.447">7.17 m2</tspan></text>
+        <path id="5411_vector" d="M604.56 161.74H633.8M633.8 161.74V189.712M633.8 189.712L604.56 189.81M604.56 189.81V161.74" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-138">
+        <rect width="29.24" height="28.07" transform="translate(516.84 133.67)" fill="white"/>
+        <text id="5413_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="527.166" y="144.982">138</tspan></text>
+        <text id="5414_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="519.466" y="156.377">7.17 m2</tspan></text>
+        <path id="5415_vector" d="M516.84 133.67H546.08M546.08 133.67V161.642M546.08 161.642L516.84 161.74M516.84 161.74V133.67" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-147">
+        <rect width="29.24" height="28.07" transform="translate(516.84 161.74)" fill="white"/>
+        <text id="5417_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="527.266" y="173.052">147</tspan></text>
+        <text id="5418_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="519.466" y="184.447">7.17 m2</tspan></text>
+        <path id="5419_vector" d="M516.84 161.74H546.08M546.08 161.74V189.712M546.08 189.712L516.84 189.81M516.84 189.81V161.74" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-140">
+        <rect width="29.24" height="28.07" transform="translate(575.32 133.67)" fill="white"/>
+        <text id="5421_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="585.611" y="144.982">140</tspan></text>
+        <text id="5422_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="577.946" y="156.377">7.17 m2</tspan></text>
+        <path id="5423_vector" d="M575.32 133.67H604.56M604.56 133.67V161.642M604.56 161.642L575.32 161.74M575.32 161.74V133.67" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-145">
+        <rect width="29.24" height="28.07" transform="translate(575.32 161.74)" fill="white"/>
+        <text id="5425_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="585.653" y="173.052">145</tspan></text>
+        <text id="5426_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="577.946" y="184.447">7.17 m2</tspan></text>
+        <path id="5427_vector" d="M575.32 161.74H604.56M604.56 161.74V189.712M604.56 189.712L575.32 189.81M575.32 189.81V161.74" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-142">
+        <rect width="29.24" height="28.07" transform="translate(633.8 133.67)" fill="white"/>
+        <text id="5429_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="644.14" y="144.982">142</tspan></text>
+        <text id="5430_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="636.426" y="156.377">7.17 m2</tspan></text>
+        <path id="5431_vector" d="M633.8 133.67H663.04M663.04 133.67V161.642M663.04 161.642L633.8 161.74M633.8 161.74V133.67" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-143">
+        <rect width="29.24" height="28.07" transform="translate(633.8 161.74)" fill="white"/>
+        <text id="5433_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="644.062" y="173.052">143</tspan></text>
+        <text id="5434_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="636.426" y="184.447">7.17 m2</tspan></text>
+        <path id="5435_vector" d="M633.8 161.74H663.04M663.04 161.74V189.712M663.04 189.712L633.8 189.81M633.8 189.81V161.74" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-171">
+        <rect width="34.49" height="33.7" transform="translate(527.82 215.5)" fill="white"/>
+        <text id="5437_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="541.313" y="228.717">171</tspan></text>
+        <text id="5438_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="530.723" y="242.25">10.16 m2</tspan></text>
+        <path id="5439_vector" d="M527.82 215.5H562.31M562.31 215.5V249.082M562.31 249.082L527.82 249.2M527.82 249.2V215.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-172">
+        <rect width="34.5" height="33.7" transform="translate(562.31 215.5)" fill="white"/>
+        <text id="5441_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="575.456" y="228.717">172</tspan></text>
+        <text id="5442_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="565.218" y="242.25">10.16 m2</tspan></text>
+        <path id="5443_vector" d="M562.31 215.5H596.81M596.81 215.5V249.082M596.81 249.082L562.31 249.2M562.31 249.2V215.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-173">
+        <rect width="32.09" height="33.7" transform="translate(596.81 215.5)" fill="white"/>
+        <text id="5445_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="608.714" y="228.717">173</tspan></text>
+        <text id="5446_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="599.248" y="242.25">9.48 m2</tspan></text>
+        <path id="5447_vector" d="M596.81 215.5H628.9M628.9 215.5V249.082M628.9 249.082L596.81 249.2M596.81 249.2V215.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-174">
+        <rect width="33.05" height="33.7" transform="translate(628.9 215.5)" fill="white"/>
+        <text id="5449_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="641.377" y="228.717">174</tspan></text>
+        <text id="5450_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="632.232" y="242.25">9.74 m2</tspan></text>
+        <path id="5451_vector" d="M628.9 215.5H661.95M661.95 215.5V249.082M661.95 249.082L628.9 249.2M628.9 249.2V215.5" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-131">
+        <rect width="41.18" height="24.87" transform="translate(69.2 140.08)" fill="white"/>
+        <text id="5453_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="85.874" y="150.31">131</tspan></text>
+        <text id="5454_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="76.3642" y="160.488">6.32 m2</tspan></text>
+        <path id="5455_vector" d="M69.2 140.08H110.38M110.38 140.08V164.863M110.38 164.863L69.2 164.95M69.2 164.95V140.08" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-117">
+        <rect width="28.16" height="28.19" transform="translate(82.22 60.93)" fill="white"/>
+        <text id="5457_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="92.5475" y="72.283">117</tspan></text>
+        <text id="5458_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="82.7375" y="83.7227">6.93 m2</tspan></text>
+        <path id="5459_vector" d="M82.22 60.93H110.38M110.38 60.93V89.0215M110.38 89.0215L82.22 89.12M82.22 89.12V60.93" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-128">
+        <rect width="28.16" height="25.12" transform="translate(82.22 89.12)" fill="white"/>
+        <text id="5461_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="92.0837" y="99.4347">128</tspan></text>
+        <text id="5462_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="82.7785" y="109.708">6.23 m2</tspan></text>
+        <path id="5463_vector" d="M82.22 89.12H110.38M110.38 89.12V114.152M110.38 114.152L82.22 114.24M82.22 114.24V89.12" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-115">
+        <rect width="32.5" height="34" transform="translate(67 1)" fill="white"/>
+        <text id="5465_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="79.4048" y="14.3182">115</tspan></text>
+        <text id="5466_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="69.7935" y="27.9657">9.68 m2</tspan></text>
+        <path id="5467_vector" d="M67 1H99.5M99.5 1V34.8812M99.5 34.8812L67 35M67 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-114">
+        <rect width="32" height="34" transform="translate(99.5 1)" fill="white"/>
+        <text id="5469_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="111.572" y="14.3182">114</tspan></text>
+        <text id="5470_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="102.013" y="27.9657">9.60 m2</tspan></text>
+        <path id="5471_vector" d="M99.5 1H131.5M131.5 1V34.8812M131.5 34.8812L99.5 35M99.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-113">
+        <rect width="32" height="34" transform="translate(131.5 1)" fill="white"/>
+        <text id="5473_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="143.584" y="14.3182">113</tspan></text>
+        <text id="5474_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="134.013" y="27.9657">9.60 m2</tspan></text>
+        <path id="5475_vector" d="M131.5 1H163.5M163.5 1V34.8812M163.5 34.8812L131.5 35M131.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-112">
+        <rect width="32" height="34" transform="translate(163.5 1)" fill="white"/>
+        <text id="5477_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="175.662" y="14.3182">112</tspan></text>
+        <text id="5478_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="166.013" y="27.9657">9.60 m2</tspan></text>
+        <path id="5479_vector" d="M163.5 1H195.5M195.5 1V34.8812M195.5 34.8812L163.5 35M163.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-111">
+        <rect width="32" height="34" transform="translate(195.5 1)" fill="white"/>
+        <text id="5481_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="208.014" y="14.3182">111</tspan></text>
+        <text id="5482_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="198.013" y="27.9657">9.60 m2</tspan></text>
+        <path id="5483_vector" d="M195.5 1H227.5M227.5 1V34.8812M227.5 34.8812L195.5 35M195.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-110">
+        <rect width="32" height="34" transform="translate(227.5 1)" fill="white"/>
+        <text id="5485_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="239.613" y="14.3182">110</tspan></text>
+        <text id="5486_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="230.013" y="27.9657">9.60 m2</tspan></text>
+        <path id="5487_vector" d="M227.5 1H259.5M259.5 1V34.8812M259.5 34.8812L227.5 35M227.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-109">
+        <rect width="32" height="34" transform="translate(259.5 1)" fill="white"/>
+        <text id="5489_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="271.215" y="14.3182">109</tspan></text>
+        <text id="5490_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="262.013" y="27.9657">9.60 m2</tspan></text>
+        <path id="5491_vector" d="M259.5 1H291.5M291.5 1V34.8812M291.5 34.8812L259.5 35M259.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-108">
+        <rect width="32" height="34" transform="translate(291.5 1)" fill="white"/>
+        <text id="5493_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="303.235" y="14.3182">108</tspan></text>
+        <text id="5494_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="294.013" y="27.9657">9.60 m2</tspan></text>
+        <path id="5495_vector" d="M291.5 1H323.5M323.5 1V34.8812M323.5 34.8812L291.5 35M291.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-107">
+        <rect width="32" height="34" transform="translate(323.5 1)" fill="white"/>
+        <text id="5497_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="335.396" y="14.3182">107</tspan></text>
+        <text id="5498_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="326.013" y="27.9657">9.60 m2</tspan></text>
+        <path id="5499_vector" d="M323.5 1H355.5M355.5 1V34.8812M355.5 34.8812L323.5 35M323.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-106">
+        <rect width="32" height="34" transform="translate(355.5 1)" fill="white"/>
+        <text id="5501_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="367.215" y="14.3182">106</tspan></text>
+        <text id="5502_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="358.013" y="27.9657">9.60 m2</tspan></text>
+        <path id="5503_vector" d="M355.5 1H387.5M387.5 1V34.8812M387.5 34.8812L355.5 35M355.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-105">
+        <rect width="31" height="34" transform="translate(387.5 1)" fill="white"/>
+        <text id="5505_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="398.754" y="14.3182">105</tspan></text>
+        <text id="5506_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="390.285" y="27.9657">9.10 m2</tspan></text>
+        <path id="5507_vector" d="M387.5 1H418.5M418.5 1V34.8812M418.5 34.8812L387.5 35M387.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+        <g id="P1_A-104">
+        <rect width="31" height="34" transform="translate(418.5 1)" fill="white"/>
+        <text id="5509_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="429.671" y="14.3182">104</tspan></text>
+        <text id="5510_text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="420.475" y="27.9657">9.30 m2</tspan></text>
+        <path id="5511_vector" d="M418.5 1H449.5M449.5 1V34.8812M449.5 34.8812L418.5 35M418.5 35V1" stroke="black" stroke-width="0.5"/>
+        </g>
+    </g>
+</svg>

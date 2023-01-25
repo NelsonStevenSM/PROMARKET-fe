@@ -1,0 +1,35 @@
+<div fxLayout="column" fxLayoutAlign="center center" class="mat-elevation-z8 loginFondoFormulario marco">
+    <mat-toolbar class="mat-elevation-z1 loginCampoTitulo">
+        <span>{{'authentication.title' | translate}}</span>
+        <span class="fill"></span>
+        <mat-icon matSuffix class="loginIconTitulo">{{'authentication.title_icon' | translate}}</mat-icon>
+    </mat-toolbar>
+    <div class="content">
+
+        <form [formGroup]="loginFormGroup">
+
+            <mat-form-field>
+                <mat-icon matSuffix>person</mat-icon>
+                <input matInput class="loginTitleUser" formControlName="username" placeholder="Usuario">
+                <mat-error *ngIf="loginFormGroup.get('username').hasError('required')">
+                    {{'authentication.error_user' | translate}}
+                </mat-error>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-icon matSuffix>{{'authentication.icon_password' | translate}}</mat-icon>
+                <input type="password" matInput formControlName="password" placeholder="Password" autocomplete="off">
+                <mat-error *ngIf="loginFormGroup.get('password').hasError('required')">
+                    {{'authentication.error_password' | translate}}
+                </mat-error>
+            </mat-form-field>
+            
+            <div>
+                <button mat-stroked-button class="loginBtnAcceder" type="button" (click)="accesoLoginGroup()">
+                    <mat-icon>{{'authentication.login_icon' | translate}}</mat-icon> {{'authentication.login_text' | translate}}
+                </button>
+            </div>
+        </form>
+
+    </div>
+</div>

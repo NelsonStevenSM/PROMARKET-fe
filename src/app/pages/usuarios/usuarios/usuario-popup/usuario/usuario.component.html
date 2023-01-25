@@ -1,0 +1,82 @@
+<mat-dialog-content class="mat-typography">
+    <fieldset>
+        <legend class="mat-elevation-z1 leyendFieldSetBorderCorner">Usuario</legend>
+        <form [formGroup]="usuarioGroup">
+            <div fxLayout="row" fxLayoutAlign="start" fxLayoutGap="25px">
+                <mat-form-field fxFlex="50" floatLabel="always">
+                    <input matInput formControlName="dni" placeholder="DNI (Usuario)" required numbersOnly maxlength=8 minlength=8>
+                    <mat-error
+                        *ngIf="usuarioGroup.get('dni').hasError('minlength')">
+                        El campo DNI debe tener 8 digitos
+                    </mat-error>
+                    <mat-error
+                        *ngIf="usuarioGroup.get('dni').hasError('required')">
+                        El campo DNI es obligatorio
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field fxFlex="50" floatLabel="always">
+                    <input matInput formControlName="nombre" placeholder="Nombre" required lettersOnly>
+
+                    <mat-error
+                        *ngIf="usuarioGroup.get('nombre').hasError('required')">
+                        El campo Nombre es obligatorio
+                    </mat-error>
+                </mat-form-field>
+            </div>
+
+            <div fxLayout="row" fxLayoutAlign="start" fxLayoutGap="25px">
+                <mat-form-field fxFlex="50" fxFlex.lt-sm="20%" floatLabel="always">
+                    <input matInput formControlName="apaterno" placeholder="Apellido Paterno" required lettersOnly>
+
+                    <mat-error
+                        *ngIf="usuarioGroup.get('apaterno').hasError('required')">
+                        El campo Apellido Paterno es obligatorio
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field fxFlex="50" fxFlex.lt-sm="20%" floatLabel="always">
+                    <input matInput formControlName="amaterno" placeholder="Apellido Materno" required lettersOnly>
+
+                    <mat-error
+                        *ngIf="usuarioGroup.get('amaterno').hasError('required')">
+                        El campo Apellido Materno es obligatorio
+                    </mat-error>
+                </mat-form-field>
+            </div>
+
+            <div fxLayout="row" fxLayoutAlign="start" fxLayoutGap="25px">
+                <mat-form-field fxFlex="50" fxFlex.lt-sm="20%">
+                    <mat-select formControlName="rol" required>
+                        <mat-option [value]="-1">Seleccione</mat-option>
+                        <mat-option [value]="1">ADMIN_ROLE</mat-option>
+                        <mat-option [value]="2">USER_ROLE</mat-option>
+                        <mat-option [value]="3">SALES_ROLE</mat-option>
+                    </mat-select>
+                    <mat-label><strong>Rol</strong></mat-label>
+
+                    <mat-error
+                        *ngIf="usuarioGroup.get('rol').hasError('required')">
+                        El campo Rol es obligatorio
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field fxFlex="50" fxFlex.lt-sm="20%" floatLabel="always">
+                    <input type="password" matInput formControlName="password" placeholder="Password" required>
+
+                    <mat-error
+                        *ngIf="usuarioGroup.get('amaterno').hasError('required')">
+                        El campo Apellido Materno es obligatorio
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </form>
+    </fieldset>
+
+    <div fxLayoutAlign="end end" fxLayoutGap="20px" style="padding-top: 5%; padding-bottom: 2%;">
+        <button class="first_button" mat-stroked-button (click)="guardar()"
+            type="button">Guardar</button>
+        <button class="third_button" mat-stroked-button (click)="cancelar()"
+            type="button">Cancelar</button>
+    </div>
+</mat-dialog-content>

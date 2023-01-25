@@ -1,0 +1,109 @@
+<svg *ngIf=flagShowSotano1 width="733" height="273" viewBox="0 0 733 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="P1-S1">
+        <path id="Vector 1" d="M154 254.5L158.5 250L157 245.5L162.5 253L160.5 247.5L167 241H154M154 254.5H150.5M154 254.5V241M128 241H125V254.5H128M128 241V254.5M128 241H131M128 254.5H131M131 241V254.5M131 241H134M131 254.5H134M134 241V254.5M134 241H137.5M134 254.5H137.5M137.5 241V254.5M137.5 241H140.5M137.5 254.5H140.5M140.5 241V254.5M140.5 241H144M140.5 254.5H144M144 241V254.5M144 241H147M144 254.5H147M147 241V254.5M147 241H150.5M147 254.5H150.5M150.5 241V254.5M150.5 241H154M123 247.5H156M156 247.5L155 246.5M156 247.5L155 248.5M704 244V231.5M704 244H691.5M704 244V247M704 244H707.125M716.5 244H729M716.5 244V231.5M716.5 244V247M716.5 244H713.375M716.5 253.5V265.5M716.5 253.5H713.375M716.5 253.5H729M716.5 253.5V250.25M704 253.5V265.5M704 253.5H707.125M704 253.5H691.5M704 253.5V250.25M704 265.5H691.5V253.5M704 265.5H707.125M716.5 265.5H729V253.5M716.5 265.5H713.375M710.25 253.5V265.5M710.25 253.5H707.125M710.25 253.5H713.375M710.25 265.5H707.125M710.25 265.5H713.375M707.125 253.5V265.5M713.375 253.5V265.5M729 253.5V250.25M729 244V231.5H716.5M729 244V247M716.5 231.5H713.375M704 231.5H691.5V244M704 231.5H707.125M691.5 244V247M691.5 253.5V250.25M716.5 247H729M716.5 247V250.25M729 247V250.25M716.5 250.25H729M691.5 247H704M691.5 247V250.25M704 247V250.25M691.5 250.25H704M710.25 231.5V244M710.25 231.5H707.125M710.25 231.5H713.375M710.25 244H707.125M710.25 244H713.375M707.125 231.5V244M713.375 231.5V244M685 259.5H723V256M723 256L721.5 257.5M723 256L724.5 257.5M723 245.5V237.5H697.5V241.5M697.5 241.5L696 240M697.5 241.5L699 240M732 268.5V1H1L11 272L732 268.5Z" stroke="black" stroke-width="0.5"/>
+        <g id="P1_S1-1">
+        <rect id="P1_S1_1" width="27.81" height="23.83" transform="translate(704.2 86.57)" fill="white"/>
+        <text id="Title" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="716.943" y="96.4483">1</tspan></text>
+        <text id="Text" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="704.908" y="106.231">5.78 m2</tspan></text>
+        <path id="Deposito" d="M704.2 86.57H732.01M732.01 86.57V110.317M732.01 110.317L704.2 110.4M704.2 110.4V86.57" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-2">
+        <rect id="P1_S1_2" width="27.81" height="21.93" transform="translate(704.2 130.72)" fill="white"/>
+        <text id="Title_2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="716.591" y="139.956">2</tspan></text>
+        <text id="Text_2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="704.71" y="149.017">5.32 m2</tspan></text>
+        <path id="Deposito_2" d="M704.2 130.72H732.01M732.01 130.72V152.573M732.01 152.573L704.2 152.65M704.2 152.65V130.72" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-3">
+        <rect id="P1_S1_3" width="27.81" height="20.86" transform="translate(704.2 152.65)" fill="white"/>
+        <text id="Title_3" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="716.513" y="161.524">3</tspan></text>
+        <text id="Text_3" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="704.679" y="170.178">5.06 m2</tspan></text>
+        <path id="Deposito_3" d="M704.2 152.65H732.01M732.01 152.65V173.437M732.01 173.437L704.2 173.51M704.2 173.51V152.65" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-4">
+        <rect id="P1_S1_4" width="27.81" height="41.15" transform="translate(704.2 173.51)" fill="white"/>
+        <text id="Title_4" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="716.501" y="189.247">4</tspan></text>
+        <text id="Text_4" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="705.195" y="205.611">9.81 m2</tspan></text>
+        <path id="Deposito_4" d="M704.2 173.51H732.01M732.01 173.51V214.516M732.01 214.516L704.2 214.66M704.2 214.66V173.51" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-15">
+        <rect id="P1_S1_15" width="27.29" height="31.93" transform="translate(259.49 238.73)" fill="white"/>
+        <text id="Title_5" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="270.452" y="251.348">15</tspan></text>
+        <text id="Text_5" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="260.181" y="264.209">7.60 m2</tspan></text>
+        <path id="Deposito_5" d="M259.49 238.73H286.78M286.78 238.73V270.548M286.78 270.548L259.49 270.66M259.49 270.66V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-14">
+        <rect id="P1_S1_14" width="27.29" height="31.82" transform="translate(286.78 238.73)" fill="white"/>
+        <text id="Title_6" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="297.659" y="251.311">14</tspan></text>
+        <text id="Text_6" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="287.676" y="264.13">7.57 m2</tspan></text>
+        <path id="Deposito_6" d="M286.78 238.73H314.07M314.07 238.73V270.439M314.07 270.439L286.78 270.55M286.78 270.55V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-13">
+        <rect id="P1_S1_13" width="27.28" height="31.7" transform="translate(314.07 238.73)" fill="white"/>
+        <text id="Title_7" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="324.956" y="251.27">13</tspan></text>
+        <text id="Text_7" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="314.773" y="264.044">7.50 m2</tspan></text>
+        <path id="Deposito_7" d="M314.07 238.73H341.35M341.35 238.73V270.319M341.35 270.319L314.07 270.43M314.07 270.43V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-12">
+        <rect id="P1_S1_12" width="27.28" height="31.59" transform="translate(341.35 238.73)" fill="white"/>
+        <text id="Title_8" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="352.314" y="251.233">12</tspan></text>
+        <text id="Text_8" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="341.827" y="263.965">7.44 m2</tspan></text>
+        <path id="Deposito_8" d="M341.35 238.73H368.63M368.63 238.73V270.21M368.63 270.21L341.35 270.32M341.35 270.32V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-11">
+        <rect id="P1_S1_11" width="27.28" height="31.47" transform="translate(368.63 238.73)" fill="white"/>
+        <text id="Title_9" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="379.946" y="251.192">11</tspan></text>
+        <text id="Text_9" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="369.196" y="263.879">7.48 m2</tspan></text>
+        <path id="Deposito_9" d="M368.63 238.73H395.91M395.91 238.73V270.09M395.91 270.09L368.63 270.2M368.63 270.2V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-10">
+        <rect id="P1_S1_10" width="27.33" height="31.36" transform="translate(395.91 238.73)" fill="white"/>
+        <text id="Title_10" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="406.85" y="251.155">10</tspan></text>
+        <text id="Text_10" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="396.501" y="263.8">7.48 m2</tspan></text>
+        <path id="Deposito_10" d="M395.91 238.73H423.24M423.24 238.73V269.98M423.24 269.98L395.91 270.09M395.91 270.09V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-9">
+        <rect id="P1_S1_9" width="27.28" height="31.24" transform="translate(423.24 238.73)" fill="white"/>
+        <text id="Title_11" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="435.32" y="251.115">9</tspan></text>
+        <text id="Text_11" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="423.888" y="263.713">7.30 m2</tspan></text>
+        <path id="Deposito_11" d="M423.24 238.73H450.52M450.52 238.73V269.861M450.52 269.861L423.24 269.97M423.24 269.97V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-8">
+        <rect id="P1_S1_8" width="27.31" height="31.13" transform="translate(450.52 238.73)" fill="white"/>
+        <text id="Title_12" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="462.635" y="251.077">8</tspan></text>
+        <text id="Text_12" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="451.665" y="263.634">7.41 m2</tspan></text>
+        <path id="Deposito_12" d="M450.52 238.73H477.83M477.83 238.73V269.751M477.83 269.751L450.52 269.86M450.52 269.86V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-7">
+        <rect id="P1_S1_7" width="27.44" height="31.01" transform="translate(477.83 238.73)" fill="white"/>
+        <text id="Title_13" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="490.122" y="251.037">7</tspan></text>
+        <text id="Text_13" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="479.04" y="263.548">7.41 m2</tspan></text>
+        <path id="Deposito_13" d="M477.83 238.73H505.27M505.27 238.73V269.632M505.27 269.632L477.83 269.74M477.83 269.74V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-6">
+        <rect id="P1_S1_6" width="27.44" height="30.9" transform="translate(505.27 238.73)" fill="white"/>
+        <text id="Title_14" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="517.43" y="251">6</tspan></text>
+        <text id="Text_14" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="506.012" y="263.469">7.20 m2</tspan></text>
+        <path id="Deposito_14" d="M505.27 238.73H532.71M532.71 238.73V269.522M532.71 269.522L505.27 269.63M505.27 269.63V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+
+        <g id="P1_S1-5">
+        <rect id="P1_S1_5" width="27.28" height="30.78" transform="translate(532.71 238.73)" fill="white"/>
+        <text id="Title_15" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="5" letter-spacing="0em"><tspan x="544.829" y="250.959">5</tspan></text>
+        <text id="Text_15" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="7" letter-spacing="0em"><tspan x="533.317" y="263.383">7.33 m2</tspan></text>
+        <path id="Deposito_15" d="M532.71 238.73H559.99M559.99 238.73V269.402M559.99 269.402L532.71 269.51M532.71 269.51V238.73" stroke="black" stroke-width="0.5"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<mat-sidenav-container style="min-height:88.5%; max-height:fit-content !important; background-color: #e9ecef;">
+    <mat-sidenav #sidenav mode="aside" close style="height: 100%;">
+        <div fxLayout="column" style="height: 100%;">
+            <div>
+                <mat-toolbar class="mat-elevation-z0 menuColor">
+                    <mat-icon>apps</mat-icon> <span>Menú Principal</span>
+                </mat-toolbar>
+                <mat-nav-list>
+                    <app-menu-list-item *ngFor="let navItem of navItems" [item]="navItem"></app-menu-list-item>
+                </mat-nav-list>
+            </div>
+            <div style="padding-right: 15px;margin-top: 90px;">
+                <mat-nav-list fxLayoutAlign="end start" class="logout-label">
+                    <a>
+                        <h3 (click)="logout()">Cerrar Sesión</h3>
+                    </a>
+                </mat-nav-list>
+            </div>
+        </div>
+    </mat-sidenav>
+
+    <router-outlet></router-outlet>
+
+</mat-sidenav-container>

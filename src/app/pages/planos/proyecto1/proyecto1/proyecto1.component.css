@@ -1,0 +1,15 @@
+.second_button {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #0B38FF;
+    transition: 0.5s ease background-color;
+}
+.second_button:hover{
+    background-color: #0B38FF !important;
+    color: white !important;
+    border: 1px solid #0B38FF;
+}
+
+/* svg g rect{ */
+    /* cursor: pointer; */
+/* } */
