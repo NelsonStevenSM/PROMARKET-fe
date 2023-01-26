@@ -1,4 +1,4 @@
-import { DatePipe, formatCurrency, getCurrencySymbol } from '@angular/common';
+import { CurrencyPipe, DatePipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { DateAdapter, MAT_DATE_FORMATS, MAT_DATE_LOCALE } from '@angular/material';
@@ -10,8 +10,6 @@ import { Puesto } from 'src/app/shared/model/database-dto/puesto';
 import { Usuario } from 'src/app/shared/model/database-dto/usuario';
 import { ProMarketService } from 'src/app/shared/services/promarket.service';
 import Swal from 'sweetalert2';
-
-const EMAIL_PATTERN ="/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i"
 
 @Component({
   selector: 'app-proyecto1',
@@ -35,7 +33,7 @@ export class Proyecto1Component implements OnInit {
   flagConyuge: boolean = false;
   flagVendedor: boolean = true;
   flagBoton: boolean = true
-  
+
   filtroGroup!: FormGroup;
 
   idStand: string = "";
@@ -51,10 +49,21 @@ export class Proyecto1Component implements OnInit {
   financiamiento: Financiamiento
   vendedor: Usuario
 
+  precio_t: string = ""
+  saldo_inicial_t: string = ""
+  financiamiento_t: string = ""
+  importe_separacion_t: string = ""
+
+  precio_n: number
+  saldo_inicial_n: number
+  financiamiento_n: number
+  importe_separacion_n: number
+
   constructor(
     private formBuilder: FormBuilder,
     public datepipe: DatePipe,
-    private service: ProMarketService
+    private service: ProMarketService,
+    private currencyPipe: CurrencyPipe
   ) { }
 
   ngOnInit() {
@@ -116,1024 +125,1031 @@ export class Proyecto1Component implements OnInit {
     this.getPuesto(id);
   }
 
-    public muestraDataA_101(){
-      this.idStand = "P1_A_101"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_102(){
-      this.idStand = "P1_A_102"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_103(){
-      this.idStand = "P1_A_103"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_104(){
-      this.idStand = "P1_A_104"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_105(){
-      this.idStand = "P1_A_105"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_106(){
-      this.idStand = "P1_A_106"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_107(){
-      this.idStand = "P1_A_107"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_108(){
-      this.idStand = "P1_A_108"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_109(){
-      this.idStand = "P1_A_109"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_110(){
-      this.idStand = "P1_A_110"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_111(){
-      this.idStand = "P1_A_111"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_112(){
-      this.idStand = "P1_A_112"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_113(){
-      this.idStand = "P1_A_113"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_114(){
-      this.idStand = "P1_A_114"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_115(){
-      this.idStand = "P1_A_115"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_116(){
-      this.idStand = "P1_A_116"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_117(){
-      this.idStand = "P1_A_117"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_120(){
-      this.idStand = "P1_A_120"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_121(){
-      this.idStand = "P1_A_121"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_122(){
-      this.idStand = "P1_A_122"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_123(){
-      this.idStand = "P1_A_123"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_124(){
-      this.idStand = "P1_A_124"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_125(){
-      this.idStand = "P1_A_125"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_126(){
-      this.idStand = "P1_A_126"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_127(){
-      this.idStand = "P1_A_127"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_130(){
-      this.idStand = "P1_A_130"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_131(){
-      this.idStand = "P1_A_131"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_132(){
-      this.idStand = "P1_A_132"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_133(){
-      this.idStand = "P1_A_133"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_134(){
-      this.idStand = "P1_A_134"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_135(){
-      this.idStand = "P1_A_135"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_136(){
-      this.idStand = "P1_A_136"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_137(){
-      this.idStand = "P1_A_137"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_140(){
-      this.idStand = "P1_A_140"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_141(){
-      this.idStand = "P1_A_141"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_142(){
-      this.idStand = "P1_A_142"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_143(){
-      this.idStand = "P1_A_143"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_144(){
-      this.idStand = "P1_A_144"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_145(){
-      this.idStand = "P1_A_145"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_146(){
-      this.idStand = "P1_A_146"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_147(){
-      this.idStand = "P1_A_147"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_150(){
-      this.idStand = "P1_A_150"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_151(){
-      this.idStand = "P1_A_151"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_152(){
-      this.idStand = "P1_A_152"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_153(){
-      this.idStand = "P1_A_153"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_154(){
-      this.idStand = "P1_A_154"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_155(){
-      this.idStand = "P1_A_155"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_156(){
-      this.idStand = "P1_A_156"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_157(){
-      this.idStand = "P1_A_157"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_160(){
-      this.idStand = "P1_A_160"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_161(){
-      this.idStand = "P1_A_161"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_162(){
-      this.idStand = "P1_A_162"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_163(){
-      this.idStand = "P1_A_163"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_164(){
-      this.idStand = "P1_A_164"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_165(){
-      this.idStand = "P1_A_165"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_166(){
-      this.idStand = "P1_A_166"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_167(){
-      this.idStand = "P1_A_167"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_170(){
-      this.idStand = "P1_A_170"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_171(){
-      this.idStand = "P1_A_171"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_172(){
-      this.idStand = "P1_A_172"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_173(){
-      this.idStand = "P1_A_173"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_174(){
-      this.idStand = "P1_A_174"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_M1(){
-      this.idStand = "P1_A_M1"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_M2(){
-      this.idStand = "P1_A_M2"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_M3(){
-      this.idStand = "P1_A_M3"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_M4(){
-      this.idStand = "P1_A_M4"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_M5(){
-      this.idStand = "P1_A_M5"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_M6(){
-      this.idStand = "P1_A_M6"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_M7(){
-      this.idStand = "P1_A_M7"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataA_M8(){
-      this.idStand = "P1_A_M8"
-      this.muestraData(this.idStand)
-    }
-  
+  public muestraDataA_101() {
+    this.idStand = "P1_A_101"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_102() {
+    this.idStand = "P1_A_102"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_103() {
+    this.idStand = "P1_A_103"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_104() {
+    this.idStand = "P1_A_104"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_105() {
+    this.idStand = "P1_A_105"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_106() {
+    this.idStand = "P1_A_106"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_107() {
+    this.idStand = "P1_A_107"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_108() {
+    this.idStand = "P1_A_108"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_109() {
+    this.idStand = "P1_A_109"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_110() {
+    this.idStand = "P1_A_110"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_111() {
+    this.idStand = "P1_A_111"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_112() {
+    this.idStand = "P1_A_112"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_113() {
+    this.idStand = "P1_A_113"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_114() {
+    this.idStand = "P1_A_114"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_115() {
+    this.idStand = "P1_A_115"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_116() {
+    this.idStand = "P1_A_116"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_117() {
+    this.idStand = "P1_A_117"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_118() {
+    this.idStand = "P1_A_118"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_119() {
+    this.idStand = "P1_A_119"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_120() {
+    this.idStand = "P1_A_120"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_121() {
+    this.idStand = "P1_A_121"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_122() {
+    this.idStand = "P1_A_122"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_123() {
+    this.idStand = "P1_A_123"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_124() {
+    this.idStand = "P1_A_124"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_125() {
+    this.idStand = "P1_A_125"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_126() {
+    this.idStand = "P1_A_126"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_127() {
+    this.idStand = "P1_A_127"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_130() {
+    this.idStand = "P1_A_130"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_131() {
+    this.idStand = "P1_A_131"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_132() {
+    this.idStand = "P1_A_132"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_133() {
+    this.idStand = "P1_A_133"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_134() {
+    this.idStand = "P1_A_134"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_135() {
+    this.idStand = "P1_A_135"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_136() {
+    this.idStand = "P1_A_136"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_137() {
+    this.idStand = "P1_A_137"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_140() {
+    this.idStand = "P1_A_140"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_141() {
+    this.idStand = "P1_A_141"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_142() {
+    this.idStand = "P1_A_142"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_143() {
+    this.idStand = "P1_A_143"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_144() {
+    this.idStand = "P1_A_144"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_145() {
+    this.idStand = "P1_A_145"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_146() {
+    this.idStand = "P1_A_146"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_147() {
+    this.idStand = "P1_A_147"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_150() {
+    this.idStand = "P1_A_150"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_151() {
+    this.idStand = "P1_A_151"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_152() {
+    this.idStand = "P1_A_152"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_153() {
+    this.idStand = "P1_A_153"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_154() {
+    this.idStand = "P1_A_154"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_155() {
+    this.idStand = "P1_A_155"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_156() {
+    this.idStand = "P1_A_156"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_157() {
+    this.idStand = "P1_A_157"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_160() {
+    this.idStand = "P1_A_160"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_161() {
+    this.idStand = "P1_A_161"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_162() {
+    this.idStand = "P1_A_162"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_163() {
+    this.idStand = "P1_A_163"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_164() {
+    this.idStand = "P1_A_164"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_165() {
+    this.idStand = "P1_A_165"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_166() {
+    this.idStand = "P1_A_166"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_167() {
+    this.idStand = "P1_A_167"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_170() {
+    this.idStand = "P1_A_170"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_171() {
+    this.idStand = "P1_A_171"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_172() {
+    this.idStand = "P1_A_172"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_173() {
+    this.idStand = "P1_A_173"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_174() {
+    this.idStand = "P1_A_174"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_M1() {
+    this.idStand = "P1_A_M1"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_M2() {
+    this.idStand = "P1_A_M2"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_M3() {
+    this.idStand = "P1_A_M3"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_M4() {
+    this.idStand = "P1_A_M4"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_M5() {
+    this.idStand = "P1_A_M5"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_M6() {
+    this.idStand = "P1_A_M6"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_M7() {
+    this.idStand = "P1_A_M7"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_M8() {
+    this.idStand = "P1_A_M8"
+    this.muestraData(this.idStand)
+  }
 
 
-    public muestraDataB_200(){
-      this.idStand = "P1_B_200"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_201(){
-      this.idStand = "P1_B_201"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_202(){
-      this.idStand = "P1_B_202"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_203(){
-      this.idStand = "P1_B_203"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_204(){
-      this.idStand = "P1_B_204"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_205(){
-      this.idStand = "P1_B_205"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_206(){
-      this.idStand = "P1_B_206"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_207(){
-      this.idStand = "P1_B_207"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_208(){
-      this.idStand = "P1_B_208"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_209(){
-      this.idStand = "P1_B_209"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_210(){
-      this.idStand = "P1_B_210"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_211(){
-      this.idStand = "P1_B_211"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_212(){
-      this.idStand = "P1_B_212"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_213(){
-      this.idStand = "P1_B_213"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_214(){
-      this.idStand = "P1_B_214"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_215(){
-      this.idStand = "P1_B_215"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_216(){
-      this.idStand = "P1_B_216"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_217(){
-      this.idStand = "P1_B_217"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_218(){
-      this.idStand = "P1_B_218"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_219(){
-      this.idStand = "P1_B_219"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_220(){
-      this.idStand = "P1_B_220"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_221(){
-      this.idStand = "P1_B_221"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_222(){
-      this.idStand = "P1_B_222"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_223(){
-      this.idStand = "P1_B_223"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_224(){
-      this.idStand = "P1_B_224"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_225(){
-      this.idStand = "P1_B_225"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_226(){
-      this.idStand = "P1_B_226"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_227(){
-      this.idStand = "P1_B_227"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_228(){
-      this.idStand = "P1_B_228"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_229(){
-      this.idStand = "P1_B_229"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_230(){
-      this.idStand = "P1_B_230"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_231(){
-      this.idStand = "P1_B_231"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_232(){
-      this.idStand = "P1_B_232"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_233(){
-      this.idStand = "P1_B_233"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_234(){
-      this.idStand = "P1_B_234"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_235(){
-      this.idStand = "P1_B_235"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_236(){
-      this.idStand = "P1_B_236"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_237(){
-      this.idStand = "P1_B_237"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_238(){
-      this.idStand = "P1_B_238"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_239(){
-      this.idStand = "P1_B_239"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_240(){
-      this.idStand = "P1_B_240"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_241(){
-      this.idStand = "P1_B_241"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_242(){
-      this.idStand = "P1_B_242"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_243(){
-      this.idStand = "P1_B_243"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_244(){
-      this.idStand = "P1_B_244"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_245(){
-      this.idStand = "P1_B_245"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_246(){
-      this.idStand = "P1_B_246"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_247(){
-      this.idStand = "P1_B_247"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_248(){
-      this.idStand = "P1_B_248"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_249(){
-      this.idStand = "P1_B_249"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_250(){
-      this.idStand = "P1_B_250"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_251(){
-      this.idStand = "P1_B_251"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_252(){
-      this.idStand = "P1_B_252"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_253(){
-      this.idStand = "P1_B_253"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_254(){
-      this.idStand = "P1_B_254"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_255(){
-      this.idStand = "P1_B_255"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_256(){
-      this.idStand = "P1_B_256"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_257(){
-      this.idStand = "P1_B_257"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_258(){
-      this.idStand = "P1_B_258"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_259(){
-      this.idStand = "P1_B_259"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_260(){
-      this.idStand = "P1_B_260"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_261(){
-      this.idStand = "P1_B_261"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_262(){
-      this.idStand = "P1_B_262"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_263(){
-      this.idStand = "P1_B_263"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_264(){
-      this.idStand = "P1_B_264"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_265(){
-      this.idStand = "P1_B_265"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_266(){
-      this.idStand = "P1_B_266"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_267(){
-      this.idStand = "P1_B_267"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_268(){
-      this.idStand = "P1_B_268"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_269(){
-      this.idStand = "P1_B_269"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_270(){
-      this.idStand = "P1_B_270"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_271(){
-      this.idStand = "P1_B_271"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_272(){
-      this.idStand = "P1_B_272"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_273(){
-      this.idStand = "P1_B_273"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_274(){
-      this.idStand = "P1_B_274"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_275(){
-      this.idStand = "P1_B_275"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_276(){
-      this.idStand = "P1_B_276"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_277(){
-      this.idStand = "P1_B_277"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_278(){
-      this.idStand = "P1_B_278"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_279(){
-      this.idStand = "P1_B_279"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_280(){
-      this.idStand = "P1_B_280"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_281(){
-      this.idStand = "P1_B_281"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_282(){
-      this.idStand = "P1_B_282"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataB_283(){
-      this.idStand = "P1_B_283"
-      this.muestraData(this.idStand)
-    }
 
- 
-    public muestraDataC_301(){
+  public muestraDataB_200() {
+    this.idStand = "P1_B_200"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_201() {
+    this.idStand = "P1_B_201"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_202() {
+    this.idStand = "P1_B_202"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_203() {
+    this.idStand = "P1_B_203"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_204() {
+    this.idStand = "P1_B_204"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_205() {
+    this.idStand = "P1_B_205"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_206() {
+    this.idStand = "P1_B_206"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_207() {
+    this.idStand = "P1_B_207"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_208() {
+    this.idStand = "P1_B_208"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_209() {
+    this.idStand = "P1_B_209"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_210() {
+    this.idStand = "P1_B_210"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_211() {
+    this.idStand = "P1_B_211"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_212() {
+    this.idStand = "P1_B_212"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_213() {
+    this.idStand = "P1_B_213"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_214() {
+    this.idStand = "P1_B_214"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_215() {
+    this.idStand = "P1_B_215"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_216() {
+    this.idStand = "P1_B_216"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_217() {
+    this.idStand = "P1_B_217"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_218() {
+    this.idStand = "P1_B_218"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_219() {
+    this.idStand = "P1_B_219"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_220() {
+    this.idStand = "P1_B_220"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_221() {
+    this.idStand = "P1_B_221"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_222() {
+    this.idStand = "P1_B_222"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_223() {
+    this.idStand = "P1_B_223"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_224() {
+    this.idStand = "P1_B_224"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_225() {
+    this.idStand = "P1_B_225"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_226() {
+    this.idStand = "P1_B_226"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_227() {
+    this.idStand = "P1_B_227"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_228() {
+    this.idStand = "P1_B_228"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_229() {
+    this.idStand = "P1_B_229"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_230() {
+    this.idStand = "P1_B_230"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_231() {
+    this.idStand = "P1_B_231"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_232() {
+    this.idStand = "P1_B_232"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_233() {
+    this.idStand = "P1_B_233"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_234() {
+    this.idStand = "P1_B_234"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_235() {
+    this.idStand = "P1_B_235"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_236() {
+    this.idStand = "P1_B_236"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_237() {
+    this.idStand = "P1_B_237"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_238() {
+    this.idStand = "P1_B_238"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_239() {
+    this.idStand = "P1_B_239"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_240() {
+    this.idStand = "P1_B_240"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_241() {
+    this.idStand = "P1_B_241"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_242() {
+    this.idStand = "P1_B_242"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_243() {
+    this.idStand = "P1_B_243"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_244() {
+    this.idStand = "P1_B_244"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_245() {
+    this.idStand = "P1_B_245"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_246() {
+    this.idStand = "P1_B_246"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_247() {
+    this.idStand = "P1_B_247"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_248() {
+    this.idStand = "P1_B_248"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_249() {
+    this.idStand = "P1_B_249"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_250() {
+    this.idStand = "P1_B_250"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_251() {
+    this.idStand = "P1_B_251"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_252() {
+    this.idStand = "P1_B_252"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_253() {
+    this.idStand = "P1_B_253"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_254() {
+    this.idStand = "P1_B_254"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_255() {
+    this.idStand = "P1_B_255"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_256() {
+    this.idStand = "P1_B_256"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_257() {
+    this.idStand = "P1_B_257"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_258() {
+    this.idStand = "P1_B_258"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_259() {
+    this.idStand = "P1_B_259"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_260() {
+    this.idStand = "P1_B_260"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_261() {
+    this.idStand = "P1_B_261"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_262() {
+    this.idStand = "P1_B_262"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_263() {
+    this.idStand = "P1_B_263"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_264() {
+    this.idStand = "P1_B_264"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_265() {
+    this.idStand = "P1_B_265"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_266() {
+    this.idStand = "P1_B_266"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_267() {
+    this.idStand = "P1_B_267"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_268() {
+    this.idStand = "P1_B_268"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_269() {
+    this.idStand = "P1_B_269"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_270() {
+    this.idStand = "P1_B_270"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_271() {
+    this.idStand = "P1_B_271"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_272() {
+    this.idStand = "P1_B_272"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_273() {
+    this.idStand = "P1_B_273"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_274() {
+    this.idStand = "P1_B_274"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_275() {
+    this.idStand = "P1_B_275"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_276() {
+    this.idStand = "P1_B_276"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_277() {
+    this.idStand = "P1_B_277"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_278() {
+    this.idStand = "P1_B_278"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_279() {
+    this.idStand = "P1_B_279"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_280() {
+    this.idStand = "P1_B_280"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_281() {
+    this.idStand = "P1_B_281"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_282() {
+    this.idStand = "P1_B_282"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataB_283() {
+    this.idStand = "P1_B_283"
+    this.muestraData(this.idStand)
+  }
+
+
+  public muestraDataC_301() {
     this.idStand = "P1_C_301"
     this.muestraData(this.idStand)
-    }    
-    public muestraDataC_302(){
+  }
+  public muestraDataC_302() {
     this.idStand = "P1_C_302"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_303(){
+  }
+  public muestraDataC_303() {
     this.idStand = "P1_C_303"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_304(){
+  }
+  public muestraDataC_304() {
     this.idStand = "P1_C_304"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_305(){
+  }
+  public muestraDataC_305() {
     this.idStand = "P1_C_305"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_306(){
+  }
+  public muestraDataC_306() {
     this.idStand = "P1_C_306"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_307(){
+  }
+  public muestraDataC_307() {
     this.idStand = "P1_C_307"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_308(){
+  }
+  public muestraDataC_308() {
     this.idStand = "P1_C_308"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_309(){
+  }
+  public muestraDataC_309() {
     this.idStand = "P1_C_309"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_310(){
+  }
+  public muestraDataC_310() {
     this.idStand = "P1_C_310"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_311(){
+  }
+  public muestraDataC_311() {
     this.idStand = "P1_C_311"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_312(){
+  }
+  public muestraDataC_312() {
     this.idStand = "P1_C_312"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_313(){
+  }
+  public muestraDataC_313() {
     this.idStand = "P1_C_313"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_314(){
+  }
+  public muestraDataC_314() {
     this.idStand = "P1_C_314"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_315(){
+  }
+  public muestraDataC_315() {
     this.idStand = "P1_C_315"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_316(){
+  }
+  public muestraDataC_316() {
     this.idStand = "P1_C_316"
     this.muestraData(this.idStand)
-    }
-    
-    public muestraDataC_317(){
+  }
+  public muestraDataC_317() {
     this.idStand = "P1_C_317"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_318(){
+  }
+  public muestraDataC_318() {
     this.idStand = "P1_C_318"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_319(){
+  }
+  public muestraDataC_319() {
     this.idStand = "P1_C_319"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_320(){
+  }
+  public muestraDataC_320() {
     this.idStand = "P1_C_320"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_321(){
+  }
+  public muestraDataC_321() {
     this.idStand = "P1_C_321"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_322(){
+  }
+  public muestraDataC_322() {
     this.idStand = "P1_C_322"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_323(){
+  }
+  public muestraDataC_323() {
     this.idStand = "P1_C_323"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_324(){
+  }
+  public muestraDataC_324() {
     this.idStand = "P1_C_324"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_325(){
+  }
+  public muestraDataC_325() {
     this.idStand = "P1_C_325"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_326(){
+  }
+  public muestraDataC_326() {
     this.idStand = "P1_C_326"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_327(){
+  }
+  public muestraDataC_327() {
     this.idStand = "P1_C_327"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_328(){
+  }
+  public muestraDataC_328() {
     this.idStand = "P1_C_328"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_329(){
+  }
+  public muestraDataC_329() {
     this.idStand = "P1_C_329"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_330(){
+  }
+  public muestraDataC_330() {
     this.idStand = "P1_C_330"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_331(){
+  }
+  public muestraDataC_331() {
     this.idStand = "P1_C_331"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_332(){
+  }
+  public muestraDataC_332() {
     this.idStand = "P1_C_332"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_333(){
+  }
+  public muestraDataC_333() {
     this.idStand = "P1_C_333"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_334(){
+  }
+  public muestraDataC_334() {
     this.idStand = "P1_C_334"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_335(){
+  }
+  public muestraDataC_335() {
     this.idStand = "P1_C_335"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_336(){
+  }
+  public muestraDataC_336() {
     this.idStand = "P1_C_336"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_337(){
+  }
+  public muestraDataC_337() {
     this.idStand = "P1_C_337"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_338(){
+  }
+  public muestraDataC_338() {
     this.idStand = "P1_C_338"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_339(){
+  }
+  public muestraDataC_339() {
     this.idStand = "P1_C_339"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_340(){
+  }
+  public muestraDataC_340() {
     this.idStand = "P1_C_340"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_341(){
+  }
+  public muestraDataC_341() {
     this.idStand = "P1_C_341"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_342(){
+  }
+  public muestraDataC_342() {
     this.idStand = "P1_C_342"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_343(){
+  }
+  public muestraDataC_343() {
     this.idStand = "P1_C_343"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_344(){
+  }
+  public muestraDataC_344() {
     this.idStand = "P1_C_344"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_345(){
+  }
+  public muestraDataC_345() {
     this.idStand = "P1_C_345"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_346(){
+  }
+  public muestraDataC_346() {
     this.idStand = "P1_C_346"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_347(){
+  }
+  public muestraDataC_347() {
     this.idStand = "P1_C_347"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_348(){
+  }
+  public muestraDataC_348() {
     this.idStand = "P1_C_348"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_349(){
+  }
+  public muestraDataC_349() {
     this.idStand = "P1_C_349"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_350(){
+  }
+  public muestraDataC_350() {
     this.idStand = "P1_C_350"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_351(){
+  }
+  public muestraDataC_351() {
     this.idStand = "P1_C_351"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_352(){
+  }
+  public muestraDataC_352() {
     this.idStand = "P1_C_352"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_353(){
+  }
+  public muestraDataC_353() {
     this.idStand = "P1_C_353"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_354(){
+  }
+  public muestraDataC_354() {
     this.idStand = "P1_C_354"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_355(){
+  }
+  public muestraDataC_355() {
     this.idStand = "P1_C_355"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_356(){
+  }
+  public muestraDataC_356() {
     this.idStand = "P1_C_356"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_357(){
+  }
+  public muestraDataC_357() {
     this.idStand = "P1_C_357"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_358(){
+  }
+  public muestraDataC_358() {
     this.idStand = "P1_C_358"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_359(){
+  }
+  public muestraDataC_359() {
     this.idStand = "P1_C_359"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_360(){
+  }
+  public muestraDataC_360() {
     this.idStand = "P1_C_360"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_361(){
+  }
+  public muestraDataC_361() {
     this.idStand = "P1_C_361"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_362(){
+  }
+  public muestraDataC_362() {
     this.idStand = "P1_C_362"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_363(){
+  }
+  public muestraDataC_363() {
     this.idStand = "P1_C_363"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_364(){
+  }
+  public muestraDataC_364() {
     this.idStand = "P1_C_364"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_365(){
+  }
+  public muestraDataC_365() {
     this.idStand = "P1_C_365"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_366(){
+  }
+  public muestraDataC_366() {
     this.idStand = "P1_C_366"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_367(){
+  }
+  public muestraDataC_367() {
     this.idStand = "P1_C_367"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_368(){
+  }
+  public muestraDataC_368() {
     this.idStand = "P1_C_368"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_369(){
+  }
+  public muestraDataC_369() {
     this.idStand = "P1_C_369"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_370(){
+  }
+  public muestraDataC_370() {
     this.idStand = "P1_C_370"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_371(){
+  }
+  public muestraDataC_371() {
     this.idStand = "P1_C_371"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_372(){
+  }
+  public muestraDataC_372() {
     this.idStand = "P1_C_372"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_373(){
+  }
+  public muestraDataC_373() {
     this.idStand = "P1_C_373"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_374(){
+  }
+  public muestraDataC_374() {
     this.idStand = "P1_C_374"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_375(){
+  }
+  public muestraDataC_375() {
     this.idStand = "P1_C_375"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_376(){
+  }
+  public muestraDataC_376() {
     this.idStand = "P1_C_376"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_377(){
+  }
+  public muestraDataC_377() {
     this.idStand = "P1_C_377"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_378(){
+  }
+  public muestraDataC_378() {
     this.idStand = "P1_C_378"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_379(){
+  }
+  public muestraDataC_379() {
     this.idStand = "P1_C_379"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_380(){
+  }
+  public muestraDataC_380() {
     this.idStand = "P1_C_380"
     this.muestraData(this.idStand)
-    }
-    public muestraDataC_381(){
+  }
+  public muestraDataC_381() {
     this.idStand = "P1_C_381"
     this.muestraData(this.idStand)
-    }
+  }
 
 
-    public muestraDataS1_DEP_1() {
-      this.idStand = "P1_S1_1"
-      this.muestraData(this.idStand)
-    }
-  
-    public muestraDataS1_DEP_2() {
-      this.idStand = "P1_S1_2"
-      this.muestraData(this.idStand)
-    }
-  
-    public muestraDataS1_DEP_3() {
-      this.idStand = "P1_S1_3"
-      this.muestraData(this.idStand)
-    }
-  
-    public muestraDataS1_DEP_4() {
-      this.idStand = "P1_S1_4"
-      this.muestraData(this.idStand)
-    }
-  
-    public muestraDataS1_DEP_5() {
-      this.idStand = "P1_S1_5"
-      this.muestraData(this.idStand)
-    }
-  
-    public muestraDataS1_DEP_6() {
-      this.idStand = "P1_S1_6"
-      this.muestraData(this.idStand)
-    }
-  
-    public muestraDataS1_DEP_7() {
-      this.idStand = "P1_S1_7"
-      this.muestraData(this.idStand)
-    }
-  
-    public muestraDataS1_DEP_8() {
-      this.idStand = "P1_S1_8"
-      this.muestraData(this.idStand)
-    }
-  
-    public muestraDataS1_DEP_9() {
-      this.idStand = "P1_S1_9"
-      this.muestraData(this.idStand)
-    }
-  
-    public muestraDataS1_DEP_10() {
-      this.idStand = "P1_S1_10"
-      this.muestraData(this.idStand)
-    }
-    
-    public muestraDataS1_DEP_11() {
-      this.idStand = "P1_S1_11"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataS1_DEP_12() {
-      this.idStand = "P1_S1_12"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataS1_DEP_13() {
-      this.idStand = "P1_S1_13"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataS1_DEP_14() {
-      this.idStand = "P1_S1_14"
-      this.muestraData(this.idStand)
-    }
-    public muestraDataS1_DEP_15() {
-      this.idStand = "P1_S1_15"
-      this.muestraData(this.idStand)
-    }
+  public muestraDataS1_DEP_1() {
+    this.idStand = "P1_S1_1"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_2() {
+    this.idStand = "P1_S1_2"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_3() {
+    this.idStand = "P1_S1_3"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_4() {
+    this.idStand = "P1_S1_4"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_5() {
+    this.idStand = "P1_S1_5"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_6() {
+    this.idStand = "P1_S1_6"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_7() {
+    this.idStand = "P1_S1_7"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_8() {
+    this.idStand = "P1_S1_8"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_9() {
+    this.idStand = "P1_S1_9"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_10() {
+    this.idStand = "P1_S1_10"
+    this.muestraData(this.idStand)
+  }
+
+  public muestraDataS1_DEP_11() {
+    this.idStand = "P1_S1_11"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataS1_DEP_12() {
+    this.idStand = "P1_S1_12"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataS1_DEP_13() {
+    this.idStand = "P1_S1_13"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataS1_DEP_14() {
+    this.idStand = "P1_S1_14"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataS1_DEP_15() {
+    this.idStand = "P1_S1_15"
+    this.muestraData(this.idStand)
+  }
 
   public muestraDataS2_DEP_1() {
     this.idStand = "P1_S2_1"
@@ -1184,7 +1200,7 @@ export class Proyecto1Component implements OnInit {
     this.idStand = "P1_S2_10"
     this.muestraData(this.idStand)
   }
-  
+
   public muestraDataS2_DEP_11() {
     this.idStand = "P1_S2_11"
     this.muestraData(this.idStand)
@@ -1206,8 +1222,13 @@ export class Proyecto1Component implements OnInit {
 
     this.filtroGroup.markAsUntouched();
     this.filtroGroup.controls['numero'].setValue(puesto.nro_local);
-    this.filtroGroup.controls['precio'].setValue(puesto.previo_venta);
+
+    this.precio_n = Number(puesto.previo_venta)
+    this.precio_t = this.currencyPipe.transform(puesto.previo_venta, "S/ ")
+
+    this.filtroGroup.controls['precio'].setValue(this.precio_t);
     this.filtroGroup.controls['estado'].setValue(puesto.estado);
+    
     let area = puesto.ancho * puesto.largo
     this.filtroGroup.controls['area'].setValue(area.toFixed(2));
     this.filtroGroup.controls['frente'].setValue(puesto.ancho);
@@ -1242,17 +1263,26 @@ export class Proyecto1Component implements OnInit {
     }
 
     if (puesto.financiamiento !== null && puesto.financiamiento !== undefined) {
-      this.filtroGroup.controls['importeSeparacion'].setValue(puesto.financiamiento.imp_separacion);
-      this.filtroGroup.controls['saldoInicial'].setValue(puesto.financiamiento.saldo_inicial);
-      this.filtroGroup.controls['financia'].setValue(puesto.financiamiento.financiamiento);
+      this.importe_separacion_n = Number(puesto.financiamiento.imp_separacion)
+      this.importe_separacion_t = this.currencyPipe.transform(puesto.financiamiento.imp_separacion, "S/ ")
+      
+      this.saldo_inicial_n = Number(puesto.financiamiento.saldo_inicial)
+      this.saldo_inicial_t = this.currencyPipe.transform(puesto.financiamiento.saldo_inicial, "S/ ")
+
+      this.financiamiento_n = Number(puesto.financiamiento.financiamiento)
+      this.financiamiento_t = this.currencyPipe.transform(puesto.financiamiento.financiamiento, "S/ ")
+
+      this.filtroGroup.controls['importeSeparacion'].setValue(this.importe_separacion_t);
+      this.filtroGroup.controls['saldoInicial'].setValue(this.saldo_inicial_t);
+      this.filtroGroup.controls['financia'].setValue(this.financiamiento_t);
 
       let fs = puesto.financiamiento.fecha_separacion
       let fi = puesto.financiamiento.fecha_saldo_inicial
       let ff = puesto.financiamiento.fecha_financiamiento
 
-      this.filtroGroup.controls['fechaSeparacion'].setValue(fs.substring(0, fs.indexOf('T')).replace(/(\d{4})(-)(\d{2})(-)(\d{2})/,"$5$2$3$4$1"));
-      this.filtroGroup.controls['fechaSaldoInicial'].setValue(fi.substring(0, fs.indexOf('T')).replace(/(\d{4})(-)(\d{2})(-)(\d{2})/,"$5$2$3$4$1"));
-      this.filtroGroup.controls['fechaFinancia'].setValue(ff.substring(0, fs.indexOf('T')).replace(/(\d{4})(-)(\d{2})(-)(\d{2})/,"$5$2$3$4$1"));
+      this.filtroGroup.controls['fechaSeparacion'].setValue(fs.substring(0, fs.indexOf('T')).replace(/(\d{4})(-)(\d{2})(-)(\d{2})/, "$5$2$3$4$1"));
+      this.filtroGroup.controls['fechaSaldoInicial'].setValue(fi.substring(0, fs.indexOf('T')).replace(/(\d{4})(-)(\d{2})(-)(\d{2})/, "$5$2$3$4$1"));
+      this.filtroGroup.controls['fechaFinancia'].setValue(ff.substring(0, fs.indexOf('T')).replace(/(\d{4})(-)(\d{2})(-)(\d{2})/, "$5$2$3$4$1"));
     }
   }
 
@@ -1260,43 +1290,46 @@ export class Proyecto1Component implements OnInit {
     const invalid = [];
     const controls = this.filtroGroup.controls;
     for (const name in controls) {
-        if (controls[name].invalid) {
-            invalid.push(name);
-        }
+      if (controls[name].invalid) {
+        invalid.push(name);
+      }
     }
     return invalid;
-}
+  }
 
   public guardarDatos() {
 
-    console.log(this.findInvalidControls())
+    let estadoFill;
 
+    console.log(this.findInvalidControls())
     console.log(this.filtroGroup.valid)
-    
+
     this.filtroGroup.markAllAsTouched()
     if (this.filtroGroup.valid) {
       this.puesto_s = new Puesto()
       this.cliente = new Cliente()
       this.financiamiento = new Financiamiento()
       this.vendedor = new Usuario()
-  
+
+      estadoFill = this.filtroGroup.controls['estado'].value
+
       this.puesto_s.nro_local = this.filtroGroup.controls['numero'].value
       this.puesto_s.ancho = this.filtroGroup.controls['frente'].value
       this.puesto_s.estado = this.filtroGroup.controls['estado'].value
       this.puesto_s.largo = this.filtroGroup.controls['profundidad'].value
-      this.puesto_s.previo_venta = this.filtroGroup.controls['precio'].value
+      this.puesto_s.previo_venta = /*this.filtroGroup.controls['precio'].value*/ String(this.precio_n);
       this.puesto_s.comentario = this.filtroGroup.controls['comentario'].value
       this.puesto_s.id = this.idStand
-  
-      this.financiamiento.imp_separacion = this.filtroGroup.controls['importeSeparacion'].value
-      this.financiamiento.saldo_inicial = this.filtroGroup.controls['saldoInicial'].value
-      this.financiamiento.financiamiento = this.filtroGroup.controls['financia'].value
+
+      this.financiamiento.imp_separacion = /*this.filtroGroup.controls['importeSeparacion'].value*/ String(this.importe_separacion_n)
+      this.financiamiento.saldo_inicial = /*this.filtroGroup.controls['saldoInicial'].value*/ String(this.saldo_inicial_n)
+      this.financiamiento.financiamiento = /*this.filtroGroup.controls['financia'].value*/ String(this.financiamiento_n)
       this.financiamiento.fecha_separacion = this.filtroGroup.controls['fechaSeparacion'].value
       this.financiamiento.fecha_saldo_inicial = this.filtroGroup.controls['fechaSaldoInicial'].value
       this.financiamiento.fecha_financiamiento = this.filtroGroup.controls['fechaFinancia'].value
-  
+
       this.puesto_s.financiamiento = this.financiamiento
-  
+
       this.cliente.dni = this.filtroGroup.controls['dni'].value
       this.cliente.nombre = this.filtroGroup.controls['nombre'].value
       this.cliente.apaterno = this.filtroGroup.controls['apaterno'].value
@@ -1305,11 +1338,9 @@ export class Proyecto1Component implements OnInit {
       this.cliente.correo = this.filtroGroup.controls['correo'].value
       this.cliente.estado_civil = this.filtroGroup.controls['estadocivil'].value
       this.cliente.direccion = this.filtroGroup.controls['direccion'].value
-  
+
       // console.log("CRASHED ---- ", this.filtroGroup.controls['estadocivil'].value)
       if (this.filtroGroup.controls['estadocivil'].value === 1) {
-
-
         this.conyuge = new Conyuge()
         this.conyuge.dni = this.filtroGroup.controls['dnicony'].value
         this.conyuge.nombre = this.filtroGroup.controls['nombrecony'].value
@@ -1317,14 +1348,12 @@ export class Proyecto1Component implements OnInit {
         this.conyuge.amaterno = this.filtroGroup.controls['amaternocony'].value
         this.conyuge.celular = this.filtroGroup.controls['celularcony'].value
         this.conyuge.correo = this.filtroGroup.controls['correocony'].value
-  
+
         this.cliente.conyuge = this.conyuge
       }
-  
+
       this.vendedor.dni = this.filtroGroup.controls['vendedor'].value
-  
       this.cliente.vendedor = this.vendedor
-  
       this.puesto_s.cliente = this.cliente
 
       // console.log("Obketo RQ ->>>>", this.puesto_s)
@@ -1333,7 +1362,15 @@ export class Proyecto1Component implements OnInit {
         res => {
           // console.log("RQ CRASHED ----", res)
           const stand = document.getElementById(this.idStand);
-          stand.setAttribute("fill", "red")
+          
+          if (estadoFill === 0) {
+            stand.setAttribute("fill", "gray")
+          } else if (estadoFill === 2) {
+            stand.setAttribute("fill", "yellow")
+          } else {
+            stand.setAttribute("fill", "white")
+          }
+
           this.flagFormulario = false;
         },
         error => {
@@ -1449,7 +1486,6 @@ export class Proyecto1Component implements OnInit {
   getPuestos(id: string) {
     this.service.getPuestos(sessionStorage.getItem('token'), id).subscribe(
       res => {
-        console.log("--->",JSON.stringify(res))
         this.updateFill(res)
       },
       error => {
@@ -1459,16 +1495,13 @@ export class Proyecto1Component implements OnInit {
   }
 
   updateFill(tiendas: Puesto[]) {
-    console.log(JSON.stringify(tiendas))
     tiendas.forEach(x => {
       const stand = document.getElementById(x.id)
-      console.log("ID", x.id)
-      console.log("ID", stand)
       if (x.estado === 0) {
         stand.setAttribute("fill", "gray")
       } else if (x.estado === 2) {
         stand.setAttribute("fill", "yellow")
-      }else{
+      } else {
         stand.setAttribute("fill", "white")
       }
     });
@@ -1478,37 +1511,63 @@ export class Proyecto1Component implements OnInit {
 
     console.log(("math"))
 
-    let saldo_inicial = null
-    let saldo_inicial_format = null
-    let financiamiento = null
-    let precio = null
-    let importe_separacion = null
-    if (this.filtroGroup.controls.saldoInicial !== null && this.filtroGroup.controls.saldoInicial !== undefined) {
-      saldo_inicial = this.filtroGroup.controls.saldoInicial.value
-      // saldo_inicial_format = formatCurrency(saldo_inicial, 'en-PE', getCurrencySymbol('S/ ', 'wide'));
-      // this.filtroGroup.controls.saldoInicial.setValue(saldo_inicial_format);
-    }
-    if (this.filtroGroup.controls.precio !== null && this.filtroGroup.controls.precio !== undefined) {
-      precio = this.filtroGroup.controls.precio.value
-    }
-    if (this.filtroGroup.controls.importeSeparacion !== null && this.filtroGroup.controls.importeSeparacion !== undefined) {
-      importe_separacion = this.filtroGroup.controls.importeSeparacion.value
-      // importe_separacion = formatCurrency(importe_separacion, 'en-PE', getCurrencySymbol('S/ ', 'wide'));
-      // this.filtroGroup.controls.importeSeparacion.setValue(importe_separacion);
+    if (this.filtroGroup.controls.precio.value !== null && this.filtroGroup.controls.precio.value !== undefined) {
+      
+      this.precio_t = this.filtroGroup.controls.precio.value;
+
+      if (this.precio_t.includes("S/ ")) {
+        this.precio_t = this.precio_t.replace("S/ ", "").replace(",", "")
+        console.log("Precio String:", this.precio_t)
+        this.precio_n = Number(this.precio_t);
+        console.log("Precio Number:", this.precio_n)
+        this.filtroGroup.controls.precio.setValue(this.currencyPipe.transform(this.precio_n, "S/ "))
+      } else {
+        this.precio_n = Number(this.precio_t)
+        this.filtroGroup.controls.precio.setValue(this.currencyPipe.transform(this.precio_t, "S/ "))
+      }
     }
 
-    if (precio !== null && saldo_inicial !== null && importe_separacion !== null) {
-      financiamiento = precio - saldo_inicial - importe_separacion
-      // financiamiento = formatCurrency(financiamiento, 'en-PE', getCurrencySymbol('S/ ', 'wide'));
-      // element.IMP_SEPARACION = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.IMP_SEPARACION))
-      this.filtroGroup.controls.financia.setValue(financiamiento)
+    if (this.filtroGroup.controls.saldoInicial.value !== null && this.filtroGroup.controls.saldoInicial.value !== undefined) {
+      
+      this.saldo_inicial_t = this.filtroGroup.controls.saldoInicial.value;
+
+      if (this.saldo_inicial_t.includes("S/ ")) {
+        this.saldo_inicial_t = this.saldo_inicial_t.replace("S/ ", "").replace(",", "")
+        this.saldo_inicial_n = Number(this.saldo_inicial_t);
+        console.log("Saldo Inicial Number:", this.saldo_inicial_n)
+        this.filtroGroup.controls.saldoInicial.setValue(this.currencyPipe.transform(this.saldo_inicial_n, "S/ "))
+      } else {
+        this.saldo_inicial_n = Number(this.saldo_inicial_t)
+        this.filtroGroup.controls.saldoInicial.setValue(this.currencyPipe.transform(this.saldo_inicial_t, "S/ "))
+      }
+    }
+
+    if (this.filtroGroup.controls.importeSeparacion.value !== null && this.filtroGroup.controls.importeSeparacion.value !== undefined) {
+      
+      this.importe_separacion_t = this.filtroGroup.controls.importeSeparacion.value;
+
+      if (this.importe_separacion_t.includes("S/ ")) {
+        this.importe_separacion_t = this.importe_separacion_t.replace("S/ ", "").replace(",", "")
+        this.importe_separacion_n = Number(this.importe_separacion_t);
+        console.log("Importe Separacion Number:", this.importe_separacion_n)
+        this.filtroGroup.controls.importeSeparacion.setValue(this.currencyPipe.transform(this.importe_separacion_n, "S/ "))
+      } else {
+        this.importe_separacion_n = Number(this.importe_separacion_t)
+        this.filtroGroup.controls.importeSeparacion.setValue(this.currencyPipe.transform(this.importe_separacion_t, "S/ "))
+      }
+    }
+
+    if (this.precio_n !== null && this.saldo_inicial_n !== null && this.importe_separacion_n !== null) {
+      this.financiamiento_n = this.precio_n - this.saldo_inicial_n - this.importe_separacion_n
+      this.financiamiento_t = this.currencyPipe.transform(this.financiamiento_n, "S/ ")
+      this.filtroGroup.controls.financia.setValue(this.financiamiento_t)
     }
   }
 
   //DISABLE FORMS
   private enableByRol() {
     this.filtroGroup.reset()
-    
+
     this.filtroGroup.controls['fechaSeparacion'].setValue(this.todayDate);
     this.filtroGroup.controls['fechaSaldoInicial'].setValue(this.todayDate);
     this.filtroGroup.controls['fechaFinancia'].setValue(this.todayDate);

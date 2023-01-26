@@ -1,4 +1,4 @@
-import { DatePipe, HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { CurrencyPipe, DatePipe, HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
@@ -30,7 +30,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MatSnackBarModule,
     NgxSpinnerModule,
     FlexLayoutModule,
-    FormsModule, 
+    FormsModule,
     ReactiveFormsModule,
     TranslateModule.forRoot({
       loader: {
@@ -42,8 +42,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [
-  { provide: LocationStrategy, useClass: HashLocationStrategy },
-  DatePipe
+    { provide: LocationStrategy, useClass: HashLocationStrategy },
+    DatePipe,
+    CurrencyPipe
   ]
   ,
   bootstrap: [AppComponent]
@@ -53,7 +54,7 @@ export class AppModule {
     this.translateService.setDefaultLang("es");
     this.translateService.use("es");
   }
- }
+}
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');

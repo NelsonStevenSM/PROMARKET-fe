@@ -5,4 +5,4 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
 # If the requested resource doesn't exist, use index.html
-RewriteRule ^ /OrdenElectronicaDEV/index.html
+RewriteRule ^ /promarket/index.html
