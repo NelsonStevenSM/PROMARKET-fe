@@ -453,9 +453,6 @@ export class Proyecto1Component implements OnInit {
     this.idStand = "P1_A_M8"
     this.muestraData(this.idStand)
   }
-
-
-
   public muestraDataB_200() {
     this.idStand = "P1_B_200"
     this.muestraData(this.idStand)
@@ -1526,6 +1523,7 @@ export class Proyecto1Component implements OnInit {
 
   //MEJORAR AL BUSCAR POR PISO
   getPuestos(id: string) {
+    console.log(sessionStorage.getItem('token'))
     this.service.getPuestos(sessionStorage.getItem('token'), id).subscribe(
       res => {
         this.updateFill(res)
@@ -1539,8 +1537,8 @@ export class Proyecto1Component implements OnInit {
   updateFill(tiendas: Puesto[]) {
     tiendas.forEach(x => {
       const stand = document.getElementById(x.id)
-      console.log("ID Buscado: {}", x.id)
-      console.log(stand)
+      // console.log("ID Buscado: {}", x.id)
+      // console.log(stand)
       if (x.estado === 0) {
         stand.setAttribute("fill", "gray")
       } else if (x.estado === 2) {
