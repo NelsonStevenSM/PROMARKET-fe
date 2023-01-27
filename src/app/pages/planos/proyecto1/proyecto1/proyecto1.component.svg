@@ -1988,21 +1988,16 @@
                                 </mat-form-field>
                             </div>
                             <div fxLayout="row wrap" fxLayoutGap="15px">
-
-                                <!-- <mat-form-field fxFlex.lt-sm="20%" floatLabel="always">
-                                    <input matInput formControlName="estado" placeholder="Estado">
-                                </mat-form-field> -->
-
                                 <mat-form-field fxFlex.lt-sm="20%" >
-                                    <mat-select #mySelectState formControlName="estado" required>
-                                        <!-- <mat-option [value]="-1">Seleccione</mat-option> -->
+
+                                    <mat-select formControlName="estadoPuesto" required>
                                         <mat-option [value]="0">VENDIDO</mat-option>
-                                        <!-- <mat-option [value]="1">DISPONIBLE</mat-option> -->
+                                        <mat-option [value]="1">DISPONIBLE</mat-option>
                                         <mat-option [value]="2">SEPARADO</mat-option>
                                     </mat-select>
                                     <mat-label><strong>Estado</strong></mat-label>
                                     <mat-error
-                                        *ngIf="filtroGroup.get('estado').hasError('required')">
+                                        *ngIf="filtroGroup.get('estadoPuesto').hasError('required')">
                                         El campo Estado es obligatorio
                                     </mat-error>
                                 </mat-form-field>

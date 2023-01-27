@@ -88,7 +88,7 @@ export class Proyecto1Component implements OnInit {
       celular: new FormControl('', [Validators.required, Validators.pattern(/^[9]{1}[0-9]+$/i)]),
       correo: new FormControl('', [Validators.required, Validators.pattern(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i)]),
       estadocivil: new FormControl('0', [Validators.required]).enable,
-      estado: new FormControl('0', [Validators.required]).enable,
+      estadoPuesto: new FormControl('0', [Validators.required]).enable,
       direccion: new FormControl(''),
       dnicony: [''],
       nombrecony: [''],
@@ -1267,7 +1267,7 @@ export class Proyecto1Component implements OnInit {
     this.precio_t = this.currencyPipe.transform(puesto.previo_venta, "S/ ")
 
     this.filtroGroup.controls['precio'].setValue(this.precio_t);
-    this.filtroGroup.controls['estado'].setValue(puesto.estado);
+    this.filtroGroup.controls['estadoPuesto'].setValue(puesto.estado);
     
     let area = puesto.ancho * puesto.largo
     this.filtroGroup.controls['area'].setValue(area.toFixed(2));
@@ -1343,6 +1343,8 @@ export class Proyecto1Component implements OnInit {
 
     console.log(this.findInvalidControls())
     console.log(this.filtroGroup.valid)
+    console.log(this.filtroGroup.controls.estadoPuesto.value)
+    console.log(this.filtroGroup.controls.estadocivil.value)
 
     this.filtroGroup.markAllAsTouched()
     if (this.filtroGroup.valid) {
@@ -1351,11 +1353,11 @@ export class Proyecto1Component implements OnInit {
       this.financiamiento = new Financiamiento()
       this.vendedor = new Usuario()
 
-      estadoFill = this.filtroGroup.controls['estado'].value
+      //estadoFill = this.filtroGroup.controls['estado'].value
 
       this.puesto_s.nro_local = this.filtroGroup.controls['numero'].value
       this.puesto_s.ancho = this.filtroGroup.controls['frente'].value
-      this.puesto_s.estado = this.filtroGroup.controls['estado'].value
+      this.puesto_s.estado = this.filtroGroup.controls['estadoPuesto'].value
       this.puesto_s.largo = this.filtroGroup.controls['profundidad'].value
       this.puesto_s.previo_venta = /*this.filtroGroup.controls['precio'].value*/ String(this.precio_n);
       this.puesto_s.comentario = this.filtroGroup.controls['comentario'].value
@@ -1537,6 +1539,8 @@ export class Proyecto1Component implements OnInit {
   updateFill(tiendas: Puesto[]) {
     tiendas.forEach(x => {
       const stand = document.getElementById(x.id)
+      console.log("ID Buscado: {}", x.id)
+      console.log(stand)
       if (x.estado === 0) {
         stand.setAttribute("fill", "gray")
       } else if (x.estado === 2) {
@@ -1693,7 +1697,7 @@ export class Proyecto1Component implements OnInit {
     this.filtroGroup.controls.importeSeparacion.disable();
     this.filtroGroup.controls.saldoInicial.disable();
     this.filtroGroup.controls.financia.disable();
-    this.filtroGroup.controls.estado.disable();
+    this.filtroGroup.controls.estadoPuesto.disable();
     this.filtroGroup.controls.fechaSeparacion.disable();
     this.filtroGroup.controls.fechaSaldoInicial.disable();
     this.filtroGroup.controls.fechaFinancia.disable();
@@ -1703,7 +1707,7 @@ export class Proyecto1Component implements OnInit {
     this.filtroGroup.controls.importeSeparacion.enable();
     this.filtroGroup.controls.saldoInicial.enable();
     this.filtroGroup.controls.financia.disable();
-    this.filtroGroup.controls.estado.enable();
+    this.filtroGroup.controls.estadoPuesto.enable();
     this.filtroGroup.controls.fechaSeparacion.enable();
     this.filtroGroup.controls.fechaSaldoInicial.enable();
     this.filtroGroup.controls.fechaFinancia.enable();
