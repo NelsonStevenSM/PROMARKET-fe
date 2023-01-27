@@ -18,6 +18,26 @@
         </button>
 
     </div>
+    <section class="c-legend">
+    
+    <div class="l-assignment">
+        <span class="l-circle c1"></span>
+        <p>Disponible</p>
+    </div>
+    <div class="l-assignment">
+        <span class="l-circle c2"></span>
+        <p>Separado</p>
+    </div>
+    <div class="l-assignment">
+        <span class="l-circle c3"></span>
+        <p>Vendido</p>
+    </div>
+    <div class="l-assignment">
+        <span class="l-circle c4"></span>
+        <p>Almacenado <br> recientemente</p>
+    </div>
+    
+    </section>
 
     <div fxLayoutGap="25px" fxLayout="row wrap" fxLayout.lt-sm="column" fxLayout.lt-xs="column" fxLayoutAlign="center center">
         <svg *ngIf=flagShowPiso1 width="1278" height="472" viewBox="0 0 1278 472" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1865,7 +1885,7 @@
                         <div fxLayout="column" fxLayoutGap="10px">
                             <div fxLayout="row" fxLayoutGap="15px">
                                 <mat-form-field fxFlex.lt-sm="20%" floatLabel="always">
-                                    <input matInput formControlName="dnicony" placeholder="DNI" numbersOnly>
+                                    <input matInput formControlName="dnicony" placeholder="DNI" numbersOnly maxlength=8>
                                     <mat-error
                                         *ngIf="filtroGroup.get('dnicony').hasError('minlength')">
                                         El campo DNI debe tener 8 digitos
@@ -1974,7 +1994,7 @@
                                 </mat-form-field> -->
 
                                 <mat-form-field fxFlex.lt-sm="20%" >
-                                    <mat-select #mySelect formControlName="estado" required>
+                                    <mat-select #mySelectState formControlName="estado" required>
                                         <!-- <mat-option [value]="-1">Seleccione</mat-option> -->
                                         <mat-option [value]="0">VENDIDO</mat-option>
                                         <!-- <mat-option [value]="1">DISPONIBLE</mat-option> -->

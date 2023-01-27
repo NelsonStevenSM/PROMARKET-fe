@@ -233,6 +233,14 @@ export class Proyecto1Component implements OnInit {
     this.idStand = "P1_A_127"
     this.muestraData(this.idStand)
   }
+  public muestraDataA_128() {
+    this.idStand = "P1_A_128"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_129() {
+    this.idStand = "P1_A_129"
+    this.muestraData(this.idStand)
+  }
   public muestraDataA_130() {
     this.idStand = "P1_A_130"
     this.muestraData(this.idStand)
@@ -263,6 +271,14 @@ export class Proyecto1Component implements OnInit {
   }
   public muestraDataA_137() {
     this.idStand = "P1_A_137"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_138() {
+    this.idStand = "P1_A_138"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_139() {
+    this.idStand = "P1_A_139"
     this.muestraData(this.idStand)
   }
   public muestraDataA_140() {
@@ -297,6 +313,14 @@ export class Proyecto1Component implements OnInit {
     this.idStand = "P1_A_147"
     this.muestraData(this.idStand)
   }
+  public muestraDataA_148() {
+    this.idStand = "P1_A_148"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_149() {
+    this.idStand = "P1_A_149"
+    this.muestraData(this.idStand)
+  }
   public muestraDataA_150() {
     this.idStand = "P1_A_150"
     this.muestraData(this.idStand)
@@ -329,6 +353,14 @@ export class Proyecto1Component implements OnInit {
     this.idStand = "P1_A_157"
     this.muestraData(this.idStand)
   }
+  public muestraDataA_158() {
+    this.idStand = "P1_A_158"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_159() {
+    this.idStand = "P1_A_159"
+    this.muestraData(this.idStand)
+  }
   public muestraDataA_160() {
     this.idStand = "P1_A_160"
     this.muestraData(this.idStand)
@@ -359,6 +391,14 @@ export class Proyecto1Component implements OnInit {
   }
   public muestraDataA_167() {
     this.idStand = "P1_A_167"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_168() {
+    this.idStand = "P1_A_168"
+    this.muestraData(this.idStand)
+  }
+  public muestraDataA_169() {
+    this.idStand = "P1_A_169"
     this.muestraData(this.idStand)
   }
   public muestraDataA_170() {

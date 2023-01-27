@@ -3,14 +3,14 @@
     box-sizing: border-box;
     background: url(../img/icons/Logo-PM.png) no-repeat center center;
     background-size: 100% 100%;
-    height: 70px;
+    height: 60px;
     padding-left: 150px;
     margin: 5px;
     margin-right: 25px;
 }
 
 * {
-    font-family: 'Gill Sans Extrabold', sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 .mat-button-wrapper{
@@ -288,6 +288,7 @@ mat-select {
 }
 
 .second_button {
+    font-weight: bold;
     background-color: #959595 !important;
     color: white !important;
 }
@@ -371,3 +372,41 @@ input.mat-input-element,
     display: grid !important;
     place-items: center !important;
 } */
+svg g rect{
+    cursor: pointer;
+}
+
+.c-legend{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 3em;
+}
+
+.l-assignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l-assignment p {
+    padding: 0 0.5em;
+
+}
+
+.l-circle{
+    clip-path: circle(50% at 50% 50%);
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.c1{
+    background-color: white;
+}
+.c2{
+    background-color: yellow;
+}
+.c3{
+    background-color: gray;
+}
+.c4{
+    background-color: red;
+}
