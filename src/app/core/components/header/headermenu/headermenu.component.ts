@@ -30,7 +30,7 @@ export class HeadermenuComponent{
 
   onItemSelected(item: any) {
     if (!this.isExpandable(item)) {
-      console.log(item.route)
+      // console.log(item.route)
       this.router.navigate([item.route]);
       this.event.rutaEvent.emit(item.route);
     }

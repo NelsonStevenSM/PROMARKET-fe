@@ -1338,10 +1338,10 @@ export class Proyecto1Component implements OnInit {
 
     let estadoFill;
 
-    console.log(this.findInvalidControls())
-    console.log(this.filtroGroup.valid)
-    console.log(this.filtroGroup.controls.estadoPuesto.value)
-    console.log(this.filtroGroup.controls.estadocivil.value)
+    // console.log(this.findInvalidControls())
+    // console.log(this.filtroGroup.valid)
+    // console.log(this.filtroGroup.controls.estadoPuesto.value)
+    // console.log(this.filtroGroup.controls.estadocivil.value)
 
     this.filtroGroup.markAllAsTouched()
     if (this.filtroGroup.valid) {
@@ -1423,7 +1423,7 @@ export class Proyecto1Component implements OnInit {
   }
 
   public estadoCivilChange() {
-    console.log(this.filtroGroup.controls['estadocivil'].value)
+    // console.log(this.filtroGroup.controls['estadocivil'].value)
     // console.log("---------", this.filtroGroup.controls['estado'].value)
     if (this.filtroGroup.controls['estadocivil'].value === 1) {
       this.flagConyuge = true;
@@ -1523,7 +1523,6 @@ export class Proyecto1Component implements OnInit {
 
   //MEJORAR AL BUSCAR POR PISO
   getPuestos(id: string) {
-    console.log(sessionStorage.getItem('token'))
     this.service.getPuestos(sessionStorage.getItem('token'), id).subscribe(
       res => {
         this.updateFill(res)
@@ -1551,7 +1550,7 @@ export class Proyecto1Component implements OnInit {
 
   public mathFinanciamiento() {
 
-    console.log(("math"))
+    // console.log(("math"))
 
     if (this.filtroGroup.controls.precio.value !== null && this.filtroGroup.controls.precio.value !== undefined) {
       
@@ -1559,9 +1558,9 @@ export class Proyecto1Component implements OnInit {
 
       if (this.precio_t.includes("S/ ")) {
         this.precio_t = this.precio_t.replace("S/ ", "").replace(",", "")
-        console.log("Precio String:", this.precio_t)
+        // console.log("Precio String:", this.precio_t)
         this.precio_n = Number(this.precio_t);
-        console.log("Precio Number:", this.precio_n)
+        // console.log("Precio Number:", this.precio_n)
         this.filtroGroup.controls.precio.setValue(this.currencyPipe.transform(this.precio_n, "S/ "))
       } else {
         this.precio_n = Number(this.precio_t)
@@ -1576,7 +1575,7 @@ export class Proyecto1Component implements OnInit {
       if (this.saldo_inicial_t.includes("S/ ")) {
         this.saldo_inicial_t = this.saldo_inicial_t.replace("S/ ", "").replace(",", "")
         this.saldo_inicial_n = Number(this.saldo_inicial_t);
-        console.log("Saldo Inicial Number:", this.saldo_inicial_n)
+        // console.log("Saldo Inicial Number:", this.saldo_inicial_n)
         this.filtroGroup.controls.saldoInicial.setValue(this.currencyPipe.transform(this.saldo_inicial_n, "S/ "))
       } else {
         this.saldo_inicial_n = Number(this.saldo_inicial_t)
@@ -1591,7 +1590,7 @@ export class Proyecto1Component implements OnInit {
       if (this.importe_separacion_t.includes("S/ ")) {
         this.importe_separacion_t = this.importe_separacion_t.replace("S/ ", "").replace(",", "")
         this.importe_separacion_n = Number(this.importe_separacion_t);
-        console.log("Importe Separacion Number:", this.importe_separacion_n)
+        // console.log("Importe Separacion Number:", this.importe_separacion_n)
         this.filtroGroup.controls.importeSeparacion.setValue(this.currencyPipe.transform(this.importe_separacion_n, "S/ "))
       } else {
         this.importe_separacion_n = Number(this.importe_separacion_t)

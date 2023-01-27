@@ -73,7 +73,7 @@ export class HeaderComponent implements OnInit {
     navItem.children = children;
     this.navItems.push(navItem);
 
-    console.log(sessionStorage.getItem("rol"))
+    // console.log(sessionStorage.getItem("rol"))
 
     if (+sessionStorage.getItem("rol") === 1) {
       navItem = {} as NavItem;

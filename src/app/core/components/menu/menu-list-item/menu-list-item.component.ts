@@ -51,7 +51,7 @@ export class MenuListItemComponent implements OnInit {
     
     if (!item.children || !item.children.length) {
       this.router.navigate([item.route]);
-      console.log("MENU LIST ITEM ===> " + JSON.stringify(item.route))
+      // console.log("MENU LIST ITEM ===> " + JSON.stringify(item.route))
       this.event.rutaEvent.emit(item.route);
       this.navService.toggleMenu()
     }

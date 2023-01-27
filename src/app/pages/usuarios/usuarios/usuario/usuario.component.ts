@@ -36,7 +36,7 @@ export class UsuarioComponent implements OnInit {
       .subscribe(
         res => {
           this.usuarios = res;
-          console.log(this.usuarios)
+          // console.log(this.usuarios)
           this.dataSource = new MatTableDataSource<Usuario>(this.usuarios);
         }
       )
