@@ -1,3 +1,4 @@
+import { ThrowStmt } from '@angular/compiler';
 import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
@@ -15,6 +16,7 @@ export class UsuarioPopComponent implements OnInit {
   usuario: Usuario;
   usuarioGroup: FormGroup;
   password_gen: string = ''
+  dni_o: string;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -40,7 +42,9 @@ export class UsuarioPopComponent implements OnInit {
     })
 
     if (this.usuario !== undefined) {
-      this.usuarioGroup.controls.dni.disable();
+
+      this.dni_o = this.usuario.dni;
+
       this.usuarioGroup.patchValue({
         dni: this.usuario.dni,
         nombre: this.usuario.nombre,
@@ -77,6 +81,8 @@ export class UsuarioPopComponent implements OnInit {
     this.element.amaterno = this.usuarioGroup.controls.amaterno.value
     this.element.rol = this.usuarioGroup.controls.rol.value
     this.element.password = this.usuarioGroup.controls.password.value
+
+    this.element.dni_o = this.dni_o;
 
     this.dialogRef.close({ data: this.element });
   }

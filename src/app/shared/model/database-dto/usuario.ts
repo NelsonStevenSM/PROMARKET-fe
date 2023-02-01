@@ -9,4 +9,6 @@ export class Usuario {
     fecha_actualizacion: string;
     estado: number;
     password: any
+
+    dni_o: string;
 }

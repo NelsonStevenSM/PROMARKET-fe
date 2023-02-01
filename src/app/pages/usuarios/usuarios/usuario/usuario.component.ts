@@ -73,8 +73,12 @@ export class UsuarioComponent implements OnInit {
   }
 
   public verContra(pass: string) {
+    this.alert(pass)
+  }
+
+  private alert(txt: string) {
     Swal.fire({
-      title: pass
+      title: txt
     })
   }
 
@@ -105,7 +109,12 @@ export class UsuarioComponent implements OnInit {
           this.service.updateUsuario(sessionStorage.getItem('token'), res.data)
             .subscribe(
               res => {
+                console.log(res)
                 this.getUsuarios()
+              },
+              error => {
+                //console.log(error.error.error)
+                this.alert(error.error.error)
               }
             )
         }
