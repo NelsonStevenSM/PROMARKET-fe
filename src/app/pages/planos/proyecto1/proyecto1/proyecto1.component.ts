@@ -33,6 +33,7 @@ export class Proyecto1Component implements OnInit {
   flagConyuge: boolean = false;
   flagVendedor: boolean = true;
   flagBoton: boolean = true
+  flagReiniciar: boolean = false;
 
   filtroGroup!: FormGroup;
 
@@ -75,6 +76,7 @@ export class Proyecto1Component implements OnInit {
     this.initForm()
     this.flagVendedor = (+sessionStorage.getItem('rol') === 2) ? false : true
     this.flagBoton = (+sessionStorage.getItem('rol') === 2) ? false : true
+    this.flagReiniciar = (+sessionStorage.getItem('rol') === 1) ? true : false
   }
 
   private initForm() {
@@ -122,13 +124,16 @@ export class Proyecto1Component implements OnInit {
       if (sessionStorage.getItem('rol') === "1") {
         this.enableAll()
         this.flagBoton = true;
+        this.flagReiniciar = true;
       } else {
         this.disableAll()
         this.flagBoton = false;
+        this.flagReiniciar = false;
       }
 
     } else {
       this.flagConyuge = false
+      this.flagReiniciar = false;
       this.enableByRol()
     }
 
@@ -1275,7 +1280,7 @@ export class Proyecto1Component implements OnInit {
 
     this.filtroGroup.controls['precio'].setValue(this.precio_t);
     this.filtroGroup.controls['estadoPuesto'].setValue(puesto.estado);
-    
+
     let area = puesto.ancho * puesto.largo
     this.filtroGroup.controls['area'].setValue(area.toFixed(2));
     this.filtroGroup.controls['frente'].setValue(puesto.ancho);
@@ -1312,7 +1317,7 @@ export class Proyecto1Component implements OnInit {
     if (puesto.financiamiento !== null && puesto.financiamiento !== undefined) {
       this.importe_separacion_n = Number(puesto.financiamiento.imp_separacion)
       this.importe_separacion_t = this.currencyPipe.transform(puesto.financiamiento.imp_separacion, "S/ ")
-      
+
       this.saldo_inicial_n = Number(puesto.financiamiento.saldo_inicial)
       this.saldo_inicial_t = this.currencyPipe.transform(puesto.financiamiento.saldo_inicial, "S/ ")
 
@@ -1411,7 +1416,7 @@ export class Proyecto1Component implements OnInit {
         res => {
           // console.log("RQ CRASHED ----", res)
           const stand = document.getElementById(this.idStand);
-          
+
           if (estadoFill === 0) {
             stand.setAttribute("fill", "gray")
           } else if (estadoFill === 2) {
@@ -1430,6 +1435,25 @@ export class Proyecto1Component implements OnInit {
     } else {
       Swal.fire("Se encontraron campos incompletos")
     }
+  }
+
+  public reiniciar() {
+    this.puesto_s = new Puesto()
+    this.puesto_s.id = this.idStand
+    this.puesto_s.cliente_dni = this.filtroGroup.controls['dni'].value
+    this.puesto_s.conyuge_dni = this.filtroGroup.controls['dnicony'].value
+    this.puesto_s.financiamiento_id = this.idStand.concat("_F")
+
+    this.service.reiniciarPuesto(sessionStorage.getItem('token'), this.puesto_s).subscribe(
+      res => {
+        const stand = document.getElementById(this.idStand);
+        stand.setAttribute("fill", "white")
+        this.flagFormulario = false;
+      },
+      error => {
+        console.log(error)
+      }
+    );
   }
 
   public estadoCivilChange() {
@@ -1531,7 +1555,6 @@ export class Proyecto1Component implements OnInit {
     );
   }
 
-  //MEJORAR AL BUSCAR POR PISO
   getPuestos(id: string) {
     this.service.getPuestos(sessionStorage.getItem('token'), id).subscribe(
       res => {
@@ -1572,7 +1595,7 @@ export class Proyecto1Component implements OnInit {
     // console.log(("math"))
 
     if (this.filtroGroup.controls.precio.value !== null && this.filtroGroup.controls.precio.value !== undefined) {
-      
+
       this.precio_t = this.filtroGroup.controls.precio.value;
 
       if (this.precio_t.includes("S/ ")) {
@@ -1588,7 +1611,7 @@ export class Proyecto1Component implements OnInit {
     }
 
     if (this.filtroGroup.controls.saldoInicial.value !== null && this.filtroGroup.controls.saldoInicial.value !== undefined) {
-      
+
       this.saldo_inicial_t = this.filtroGroup.controls.saldoInicial.value;
 
       if (this.saldo_inicial_t.includes("S/ ")) {
@@ -1603,7 +1626,7 @@ export class Proyecto1Component implements OnInit {
     }
 
     if (this.filtroGroup.controls.importeSeparacion.value !== null && this.filtroGroup.controls.importeSeparacion.value !== undefined) {
-      
+
       this.importe_separacion_t = this.filtroGroup.controls.importeSeparacion.value;
 
       if (this.importe_separacion_t.includes("S/ ")) {

@@ -2030,6 +2030,7 @@
 
                     <div fxLayout="row" fxLayoutAlign="end end" fxLayoutGap="20px" *ngIf=flagBoton>
                         <button mat-raised-button (click)="guardarDatos()" class="first_button" type="button">Enviar</button>
+                        <button mat-raised-button (click)="reiniciar()" class="first_button" type="button" *ngIf=flagReiniciar>Reiniciar</button>
                     </div>
                         
                     </form>

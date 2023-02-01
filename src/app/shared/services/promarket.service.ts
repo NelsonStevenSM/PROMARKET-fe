@@ -27,6 +27,10 @@ export class ProMarketService {
         return this.http.post<number>(this.routeProMarket('puesto'), body, this.generateHeaders(token));
     }
 
+    public reiniciarPuesto = (token: string, body: Puesto): Observable<number> => {
+        return this.http.post<number>(this.routeProMarket('puesto/reiniciar'), body, this.generateHeaders(token));
+    }
+
     //LOGIN
     public getToken = (body: RqAuthentication): Observable<RsAuthentication> => {
         return this.http.post<RsAuthentication>(this.routeProMarket('authentication'), body);

@@ -16,4 +16,8 @@ export class Puesto {
     comentario: string;
     cliente: Cliente
     financiamiento: Financiamiento
+
+    conyuge_dni: string
+    cliente_dni: string
+    financiamiento_id: string
 }
