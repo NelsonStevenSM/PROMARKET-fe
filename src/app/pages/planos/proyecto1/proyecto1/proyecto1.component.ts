@@ -1360,7 +1360,7 @@ export class Proyecto1Component implements OnInit {
       this.financiamiento = new Financiamiento()
       this.vendedor = new Usuario()
 
-      //estadoFill = this.filtroGroup.controls['estado'].value
+      estadoFill = this.filtroGroup.controls['estadoPuesto'].value
 
       this.puesto_s.nro_local = this.filtroGroup.controls['numero'].value
       this.puesto_s.ancho = this.filtroGroup.controls['frente'].value
