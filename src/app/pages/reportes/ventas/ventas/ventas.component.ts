@@ -15,7 +15,7 @@ import * as FileSaver from 'file-saver';
 export class VentasComponent implements OnInit {
 
   ventas: Ventas[]
-  displayedColumns: string[] = ['id', 'nro_local', 'dni', 'cliente', 'celular', 'correo', 'imp_separacion', 'saldo_inicial', 'financiamiento', 'vendedor', 'comentario'];
+  displayedColumns: string[] = ['id', 'nro_local', 'dni', 'cliente', 'celular', 'correo', 'precio_venta', 'imp_separacion', 'saldo_inicial', 'financiamiento', 'saldo_pendiente', 'vendedor', 'comentario'];
   dataSource = new MatTableDataSource<Ventas>();
   flagBotonExportar : boolean = false;
 
@@ -35,9 +35,11 @@ export class VentasComponent implements OnInit {
             this.ventas = res;
             
             this.ventas.forEach(element => {
+              element.PRECIO_VENTA = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.PRECIO_VENTA))
               element.IMP_SEPARACION = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.IMP_SEPARACION))
               element.SALDO_INICIAL = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.SALDO_INICIAL))
               element.FINANCIAMIENTO = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.FINANCIAMIENTO))
+              element.SALDO_PENDIENTE = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.SALDO_PENDIENTE))
             });
 
             this.dataSource = new MatTableDataSource<Ventas>(this.ventas);
@@ -77,9 +79,11 @@ export class VentasComponent implements OnInit {
       { header: 'Cliente', key: 'CLIENTE', width: 10 },
       { header: 'Celular', key: 'CELULAR', width: 10 },
       { header: 'Correo', key: 'CORREO', width: 10 },
+      { header: 'Precio de Venta (S/)', key: 'PRECIO_VENTA', width: 10 },
       { header: 'Imp. Separación (S/)', key: 'IMP_SEPARACION', width: 10 },
       { header: 'Saldo Inicial (S/)', key: 'SALDO_INICIAL', width: 10 },
       { header: 'Financiamiento (S/)', key: 'FINANCIAMIENTO', width: 10 },
+      { header: 'Saldo Pendiente (S/)', key: 'SALDO_PENDIENTE', width: 10 },
       { header: 'Vendedor', key: 'VENDEDOR', width: 10 },
       { header: 'Comentario', key: 'COMENTARIO', width: 10 }
     ];

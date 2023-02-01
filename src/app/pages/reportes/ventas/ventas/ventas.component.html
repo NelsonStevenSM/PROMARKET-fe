@@ -45,9 +45,14 @@
                 <td mat-cell *matCellDef="let element"> {{element.CORREO}} </td>
               </ng-container>
         
+              <ng-container matColumnDef="precio_venta">
+                <th mat-header-cell *matHeaderCellDef>Precio de Venta (S/)</th>
+                <td mat-cell *matCellDef="let element" > {{ element.PRECIO_VENTA }} </td>
+              </ng-container>
+
               <ng-container matColumnDef="imp_separacion">
                 <th mat-header-cell *matHeaderCellDef>Imp. Separación (S/)</th>
-                <td mat-cell *matCellDef="let element" > {{ (element.IMP_SEPARACION).toLocaleString('en-US', {style: 'currency', currency: 'USD'}) }} </td>
+                <td mat-cell *matCellDef="let element" > {{ element.IMP_SEPARACION }} </td>
               </ng-container>
         
               <ng-container matColumnDef="saldo_inicial">
@@ -58,6 +63,11 @@
               <ng-container matColumnDef="financiamiento">
                 <th mat-header-cell *matHeaderCellDef>Financiamiento (S/)</th>
                 <td mat-cell *matCellDef="let element"> {{ element.FINANCIAMIENTO }} </td>
+              </ng-container>
+
+              <ng-container matColumnDef="saldo_pendiente">
+                <th mat-header-cell *matHeaderCellDef>Saldo Pendiente (S/)</th>
+                <td mat-cell *matCellDef="let element"> {{ element.SALDO_PENDIENTE }} </td>
               </ng-container>
         
               <ng-container matColumnDef="vendedor">

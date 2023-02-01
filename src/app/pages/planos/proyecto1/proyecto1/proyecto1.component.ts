@@ -59,6 +59,10 @@ export class Proyecto1Component implements OnInit {
   financiamiento_n: number
   importe_separacion_n: number
 
+  cant_vendidos: number
+  cant_separado: number
+  cant_pendientes: number
+
   constructor(
     private formBuilder: FormBuilder,
     public datepipe: DatePipe,
@@ -114,9 +118,15 @@ export class Proyecto1Component implements OnInit {
     let valueFill = stand.getAttribute("fill")
 
     if (valueFill === "gray" || valueFill === "yellow") {
-      this.disableAll()
       this.flagVendedor = true;
-      this.flagBoton = false;
+      if (sessionStorage.getItem('rol') === "1") {
+        this.enableAll()
+        this.flagBoton = true;
+      } else {
+        this.disableAll()
+        this.flagBoton = false;
+      }
+
     } else {
       this.flagConyuge = false
       this.enableByRol()
@@ -1534,18 +1544,27 @@ export class Proyecto1Component implements OnInit {
   }
 
   updateFill(tiendas: Puesto[]) {
+    this.cant_separado = 0
+    this.cant_vendidos = 0
+    this.cant_pendientes = 0
+
     tiendas.forEach(x => {
       const stand = document.getElementById(x.id)
       // console.log("ID Buscado: {}", x.id)
       // console.log(stand)
       if (x.estado === 0) {
         stand.setAttribute("fill", "gray")
+        this.cant_vendidos++
       } else if (x.estado === 2) {
         stand.setAttribute("fill", "yellow")
+        this.cant_separado++
       } else {
         stand.setAttribute("fill", "white")
+        this.cant_pendientes++
       }
     });
+
+    console.log("SEPARADOS: {}, VENDIDOS: {}, PENDIENTES: {}", this.cant_separado, this.cant_vendidos, this.cant_pendientes)
   }
 
   public mathFinanciamiento() {

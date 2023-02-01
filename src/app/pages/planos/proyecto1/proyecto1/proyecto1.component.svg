@@ -22,15 +22,15 @@
     
     <div class="l-assignment">
         <span class="l-circle c1"></span>
-        <p>Disponible</p>
+        <p>Disponible: {{ cant_pendientes }}</p>
     </div>
     <div class="l-assignment">
         <span class="l-circle c2"></span>
-        <p>Separado</p>
+        <p>Separado: {{ cant_separado }}</p>
     </div>
     <div class="l-assignment">
         <span class="l-circle c3"></span>
-        <p>Vendido</p>
+        <p>Vendido: {{ cant_vendidos }}</p>
     </div>
     <div class="l-assignment">
         <span class="l-circle c4"></span>
