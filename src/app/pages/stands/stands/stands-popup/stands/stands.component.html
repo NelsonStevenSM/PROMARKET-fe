@@ -1,0 +1,39 @@
+<mat-dialog-content class="mat-typography">
+    <fieldset>
+        <legend class="mat-elevation-z1 leyendFieldSetBorderCorner">Stand {{id}}</legend>
+        <form [formGroup]="standGroup">
+            <div fxLayout="row" fxLayoutAlign="start" fxLayoutGap="25px">
+                <mat-form-field fxFlex="50" floatLabel="always">
+                    <input matInput formControlName="ancho" placeholder="Ancho (m2)">
+                    <mat-error
+                        *ngIf="standGroup.get('ancho').hasError('required')">
+                        El campo Ancho es obligatorio
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field fxFlex="50" floatLabel="always">
+                    <input matInput formControlName="largo" placeholder="Largo (m2)">
+                    <mat-error
+                        *ngIf="standGroup.get('largo').hasError('required')">
+                        El campo Largo es obligatorio
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field fxFlex="50" floatLabel="always">
+                    <input matInput formControlName="precio_venta" placeholder="Precio de Venta (S/)">
+                    <mat-error
+                        *ngIf="standGroup.get('precio_venta').hasError('required')">
+                        El campo Precio de Venta es obligatorio
+                    </mat-error>
+                </mat-form-field>
+            </div>
+        </form>
+    </fieldset>
+
+    <div fxLayoutAlign="end end" fxLayoutGap="20px" style="padding-top: 5%; padding-bottom: 2%;">
+        <button class="first_button" mat-stroked-button (click)="guardar()"
+            type="button">Guardar</button>
+        <button class="third_button" mat-stroked-button (click)="cancelar()"
+            type="button">Cancelar</button>
+    </div>
+</mat-dialog-content>

@@ -23,6 +23,14 @@ export class ProMarketService {
         return this.http.get<Puesto>(this.routeProMarket('puesto/' + id), this.generateHeaders(token));
     }
 
+    public getPuestosByFilter = (token: string, body: Puesto): Observable<Puesto[]> => {
+        return this.http.post<Puesto[]>(this.routeProMarket('puesto/buscar'), body, this.generateHeaders(token));
+    }
+
+    public updatePuesto = (token: string, body: Puesto): Observable<number[]> => {
+        return this.http.post<number[]>(this.routeProMarket('puesto/actualizar'), body, this.generateHeaders(token));
+    }
+
     public savePuesto = (token: string, body: Puesto): Observable<number> => {
         return this.http.post<number>(this.routeProMarket('puesto'), body, this.generateHeaders(token));
     }

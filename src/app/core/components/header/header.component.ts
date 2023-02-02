@@ -76,6 +76,22 @@ export class HeaderComponent implements OnInit {
     // console.log(sessionStorage.getItem("rol"))
 
     if (+sessionStorage.getItem("rol") === 1) {
+      //STANDS
+      navItem = {} as NavItem;
+      navItem.displayName = "Gestión de Stands";
+
+      children = [];
+
+      itemChild = {} as NavItem;
+      itemChild.iconName = "manage_accounts"
+      itemChild.displayName = "Stands";
+      itemChild.route = "stand";
+      children.push(itemChild);
+
+      navItem.children = children;
+      this.navItems.push(navItem);
+      
+      //USUARIOS
       navItem = {} as NavItem;
       navItem.displayName = "Gestión de Usuarios";
 

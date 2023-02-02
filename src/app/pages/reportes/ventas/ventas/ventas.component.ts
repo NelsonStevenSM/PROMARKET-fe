@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { MatTableDataSource } from '@angular/material';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { MatPaginator, MatTableDataSource } from '@angular/material';
 import { Ventas } from 'src/app/shared/model/consultas-dto/ventas';
 import { ProMarketService } from 'src/app/shared/services/promarket.service';
 import Swal from 'sweetalert2';
@@ -18,6 +18,8 @@ export class VentasComponent implements OnInit {
   displayedColumns: string[] = ['id', 'nro_local', 'dni', 'cliente', 'celular', 'correo', 'precio_venta', 'imp_separacion', 'saldo_inicial', 'financiamiento', 'saldo_pendiente', 'vendedor', 'comentario'];
   dataSource = new MatTableDataSource<Ventas>();
   flagBotonExportar : boolean = false;
+
+  @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
 
   constructor(
     private service: ProMarketService
@@ -43,6 +45,7 @@ export class VentasComponent implements OnInit {
             });
 
             this.dataSource = new MatTableDataSource<Ventas>(this.ventas);
+            this.dataSource.paginator = this.paginator;
             this.flagBotonExportar = false
           } else {
             this.flagBotonExportar = true

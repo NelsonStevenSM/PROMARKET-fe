@@ -1407,28 +1407,31 @@ export class Proyecto1Component implements OnInit {
 
       // console.log("Obketo RQ ->>>>", this.puesto_s)
       // console.log(JSON.stringify(this.puesto_s))
-      this.service.savePuesto(sessionStorage.getItem('token'), this.puesto_s).subscribe(
-        res => {
-          // console.log("RQ CRASHED ----", res)
-          const stand = document.getElementById(this.idStand);
-          this.cant_pendientes--
-          if (estadoFill === 0) {
-            stand.setAttribute("fill", "gray")
-            this.cant_vendidos++
-          } else if (estadoFill === 2) {
-            stand.setAttribute("fill", "yellow")
-            this.cant_separado++
-          } else {
-            stand.setAttribute("fill", "white")
+      if (estadoFill === 1) {
+        Swal.fire("El estado del stand no puede ser disponible")
+      } else {
+        this.service.savePuesto(sessionStorage.getItem('token'), this.puesto_s).subscribe(
+          res => {
+            // console.log("RQ CRASHED ----", res)
+            const stand = document.getElementById(this.idStand);
+            this.cant_pendientes--
+            if (estadoFill === 0) {
+              stand.setAttribute("fill", "gray")
+              this.cant_vendidos++
+            } else if (estadoFill === 2) {
+              stand.setAttribute("fill", "yellow")
+              this.cant_separado++
+            } else {
+              stand.setAttribute("fill", "white")
+            }
+  
+            this.flagFormulario = false;
+          },
+          error => {
+            console.log(error)
           }
-
-          this.flagFormulario = false;
-        },
-        error => {
-          console.log(error)
-        }
-      );
-
+        );
+      }
     } else {
       Swal.fire("Se encontraron campos incompletos")
     }

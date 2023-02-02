@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { DateAdapter, MatDialog, MatTableDataSource, MAT_DATE_FORMATS, MAT_DATE_LOCALE } from '@angular/material';
+import { DateAdapter, MatDialog, MatPaginator, MatTableDataSource, MAT_DATE_FORMATS, MAT_DATE_LOCALE } from '@angular/material';
 import { MAT_MOMENT_DATE_FORMATS, MomentDateAdapter } from '@angular/material-moment-adapter';
 import { Usuario } from 'src/app/shared/model/database-dto/usuario';
 import { ProMarketService } from 'src/app/shared/services/promarket.service';
@@ -22,6 +22,8 @@ export class UsuarioComponent implements OnInit {
   displayedColumns: string[] = ['dni', 'nombre', 'apaterno', 'amaterno', 'rol', 'contra', 'fecha_crea', 'fecha_act', 'fecha_desac', 'estado', 'estado_change', 'editar'];
   dataSource = new MatTableDataSource<Usuario>();
 
+  @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
+
   constructor(
     private service: ProMarketService,
     public dialog: MatDialog,
@@ -38,6 +40,7 @@ export class UsuarioComponent implements OnInit {
           this.usuarios = res;
           // console.log(this.usuarios)
           this.dataSource = new MatTableDataSource<Usuario>(this.usuarios);
+          this.dataSource.paginator = this.paginator;
         }
       )
   }

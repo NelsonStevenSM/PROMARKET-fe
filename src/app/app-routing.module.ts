@@ -36,8 +36,11 @@ const routes: Routes = [
       //PLANOS
       {
         path: 'proyecto1', loadChildren: './pages/planos/proyecto1/proyecto1.module#Proyecto1Module'
-      }
-      ,
+      },
+      //STANDS
+      {
+        path: 'stand', loadChildren: './pages/stands/stands/stands.module#StandsModule'
+      },
       //USUARIOS
       {
         path: 'usuario', loadChildren: './pages/usuarios/usuarios/usuario.module#UsuarioModule'
