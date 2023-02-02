@@ -1353,11 +1353,6 @@ export class Proyecto1Component implements OnInit {
 
     let estadoFill;
 
-    // console.log(this.findInvalidControls())
-    // console.log(this.filtroGroup.valid)
-    // console.log(this.filtroGroup.controls.estadoPuesto.value)
-    // console.log(this.filtroGroup.controls.estadocivil.value)
-
     this.filtroGroup.markAllAsTouched()
     if (this.filtroGroup.valid) {
       this.puesto_s = new Puesto()
@@ -1416,11 +1411,13 @@ export class Proyecto1Component implements OnInit {
         res => {
           // console.log("RQ CRASHED ----", res)
           const stand = document.getElementById(this.idStand);
-
+          this.cant_pendientes--
           if (estadoFill === 0) {
             stand.setAttribute("fill", "gray")
+            this.cant_vendidos++
           } else if (estadoFill === 2) {
             stand.setAttribute("fill", "yellow")
+            this.cant_separado++
           } else {
             stand.setAttribute("fill", "white")
           }
@@ -1444,11 +1441,20 @@ export class Proyecto1Component implements OnInit {
     this.puesto_s.conyuge_dni = this.filtroGroup.controls['dnicony'].value
     this.puesto_s.financiamiento_id = this.idStand.concat("_F")
 
+    let estadoFill = this.filtroGroup.controls['estadoPuesto'].value
+
     this.service.reiniciarPuesto(sessionStorage.getItem('token'), this.puesto_s).subscribe(
       res => {
         const stand = document.getElementById(this.idStand);
         stand.setAttribute("fill", "white")
         this.flagFormulario = false;
+        this.cant_pendientes++
+        if (estadoFill === 0) {
+          this.cant_vendidos--
+        } else if (estadoFill === 2) {
+          this.cant_separado--
+        }
+
       },
       error => {
         console.log(error)
