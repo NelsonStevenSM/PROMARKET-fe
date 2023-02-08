@@ -24,6 +24,11 @@
                 <th mat-header-cell *matHeaderCellDef>N° Local</th>
                 <td mat-cell *matCellDef="let element"> {{element.NRO_LOCAL}} </td>
               </ng-container>
+
+             <ng-container matColumnDef="estado">
+                <th mat-header-cell *matHeaderCellDef>Estado</th>
+                <td mat-cell *matCellDef="let element"> {{element.ESTADO}} </td>
+              </ng-container>
   
               <ng-container matColumnDef="dni">
                 <th mat-header-cell *matHeaderCellDef>DNI</th>

@@ -15,7 +15,7 @@ import * as FileSaver from 'file-saver';
 export class VentasComponent implements OnInit {
 
   ventas: Ventas[]
-  displayedColumns: string[] = ['id', 'nro_local', 'dni', 'cliente', 'celular', 'correo', 'precio_venta', 'imp_separacion', 'saldo_inicial', 'financiamiento', 'saldo_pendiente', 'vendedor', 'comentario'];
+  displayedColumns: string[] = ['id', 'nro_local', 'estado', 'dni', 'cliente', 'celular', 'correo', 'precio_venta', 'imp_separacion', 'saldo_inicial', 'financiamiento', 'saldo_pendiente', 'vendedor', 'comentario'];
   dataSource = new MatTableDataSource<Ventas>();
   flagBotonExportar : boolean = false;
 
@@ -35,13 +35,13 @@ export class VentasComponent implements OnInit {
         res => {
           if (res.length !== 0) {
             this.ventas = res;
-            
             this.ventas.forEach(element => {
-              element.PRECIO_VENTA = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.PRECIO_VENTA))
-              element.IMP_SEPARACION = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.IMP_SEPARACION))
-              element.SALDO_INICIAL = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.SALDO_INICIAL))
-              element.FINANCIAMIENTO = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.FINANCIAMIENTO))
-              element.SALDO_PENDIENTE = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.SALDO_PENDIENTE))
+              element.PRECIO_VENTA = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.PRECIO_VENTA));
+              element.IMP_SEPARACION = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.IMP_SEPARACION));
+              element.SALDO_INICIAL = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.SALDO_INICIAL));
+              element.FINANCIAMIENTO = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.FINANCIAMIENTO));
+              element.SALDO_PENDIENTE = new Intl.NumberFormat('es-PE', { style: 'currency', currency: 'PEN' }).format(Number(element.SALDO_PENDIENTE));
+              element.ESTADO = (element.ESTADO) ? "SEPARADO" : "VENDIDO"
             });
 
             this.dataSource = new MatTableDataSource<Ventas>(this.ventas);
@@ -78,6 +78,7 @@ export class VentasComponent implements OnInit {
     worksheet.columns = [
       { header: 'ID', key: 'ID', width: 10 },
       { header: 'N° Local', key: 'NRO_LOCAL', width: 10 },
+      { header: 'Estado', key: 'ESTADO', width: 10 },
       { header: 'DNI', key: 'DNI', width: 10 },
       { header: 'Cliente', key: 'CLIENTE', width: 10 },
       { header: 'Celular', key: 'CELULAR', width: 10 },

@@ -1,6 +1,7 @@
 export class Ventas {
     ID: string;
     NRO_LOCAL: string;
+    ESTADO: string;
     DNI: string;
     CLIENTE: string;
     CELULAR: string;
